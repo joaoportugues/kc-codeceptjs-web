@@ -20,8 +20,8 @@ OS X, Linux or Windows with npm:
 
 clone this project and from the terminal and navigate to folder
 ```sh
-git clone -b sandbox https://github.com/joaoportugues/codeceptjs-bdd.git
-cd codeceptjs-bdd
+git clone https://github.com/joaoportugues/kc-codeceptjs-web
+cd kc-codeceptjs-web
 ```
 
 Codeceptjs
@@ -61,16 +61,20 @@ allure serve reports
 
 You can use tags as well:
 ```sh
-npx codeceptjs run --grep "@REQ-UI-01"
+npx codeceptjs run --grep "@runThis<"
 ```
 
 Running headless by default - to enable visualization change condecept.conf.js
 
 ```sh
-Puppeteer: {
-      url: 'http://uitest.duodecadits.com',
-      show: true,
-      windowSize: '1200x900'
+WebDriver: {
+      url: 'https://kid-coins-development.web.app/',
+      browser: 'chrome',
+      desiredCapabilities: {
+	    chromeOptions: {
+		  args: [/*"--headless"*/]
+	    }
+      }
 
 	  ...
 ```
@@ -86,7 +90,7 @@ cd your_dir_name
 npx codeceptjs init
 ```
 
-Choose Helper Puppeteer - all rest default
+Choose Helper WebDriver - all rest default
 
 Configure website undertest in the file condecept.conf.js
 

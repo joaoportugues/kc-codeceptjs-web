@@ -15,6 +15,22 @@ Feature: Business rules
     Then user sees "company logo"
     Then user sees "language selector"
     
+  Scenario: confirm Apple Store icon and redirection
+    Then user sees "Apple Store button"
+    When user clicks "Apple Store button"
+    Then user sees "Apple logo"
+    Then user sees "Kid-Coins" with format "h1"
+    Then user sees "The Family App" with format "h2"
+    Then user sees "Phil Munzenmaier" with format "a"
+   
+  @runThis 
+  Scenario: confirm Google Store icon and redirection
+    Then user sees "Google Store button"
+    When user clicks "Google Store button"
+    Then user sees "Google logo"
+    Then user sees "Kid-Coins" with format "h1"
+    Then user sees "PEGI 3" with format "div"
+        
   Scenario: change language to German and confirm options, logos and elements
   	When user clicks "language selector"
   	Then user sees "German flag"
@@ -40,3 +56,7 @@ Feature: Business rules
   	Then user sees "Noticias" with format "a"
   	Then user sees "Contacto" with format "a"
     Then user sees "company logo"
+    
+  Scenario: navigate to Vision and confirm logo changes
+  	When user clicks "Vision"
+    Then user sees "company logo small"
