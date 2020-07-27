@@ -27,7 +27,7 @@ cd kc-codeceptjs-web
 Codeceptjs
 
 ```sh
-npm install codeceptjs webdriverio@6.3.5 --save
+npm install codeceptjs webdriverio@6.3.5 @wdio/selenium-standalone-service --save
 
 ```
 
@@ -40,7 +40,7 @@ npm install codeceptjs-resemblehelper --save
 Reports
 
 ```sh
-npm install -g allure-commandline --save-dev
+npm install -g allure-commandline --save
 ```
 
 ## Usage example

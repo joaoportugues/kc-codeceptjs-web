@@ -10,12 +10,12 @@ exports.config = {
 	    }
       }
     },
-  "ResembleHelper" : {
+  /*"ResembleHelper" : {
        "require": "codeceptjs-resemblehelper",
        "screenshotFolder" : "./screenshots/",
        "baseFolder": "./screenshots/base/",
        "diffFolder": "./screenshots/diff/"
-     }
+     }*/
   },
   include: {
     I: './steps_file.js'
