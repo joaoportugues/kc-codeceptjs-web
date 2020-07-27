@@ -61,7 +61,7 @@ allure serve reports
 
 You can use tags as well:
 ```sh
-npx codeceptjs run --grep "@runThis<"
+npx codeceptjs run --grep "@runThis"
 ```
 
 Running headless by default - to enable visualization change condecept.conf.js
