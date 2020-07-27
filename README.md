@@ -2,6 +2,8 @@
 > Simple tests in codeceptj using BDD
 
 ```sh
+Make sure to have the browsers required to run tests installed. Currently working with Chrome and Firefox.
+
 npm -v
 6.14.4
 
