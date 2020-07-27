@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595864640954' stop='1595864649370'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1595864642212' status='failed' stop='1595864649289'>
+            <name>confirm Google Store icon and redirection @runThis</name>
+            <title>confirm Google Store icon and redirection @runThis</title>
+            <labels>
+                <label name='tag' value='@runThis'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1595864644391' status='failed' stop='1595864649289'>
+                    <name>Then user sees "Google Store button" </name>
+                    <title>Then user sees "Google Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595864644391' status='failed' stop='1595864649289'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595864644391' status='failed' stop='1595864649288'>
+                                    <name>I see element "//img[@src="/assets/images/google-play.svg"]"</name>
+                                    <title>I see element "//img[@src="/assets/images/google-play.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=84.0.4147.89)</message>
+                <stack-trace>no such window: no such window: window was already closed
+                  (Session info: chrome=84.0.4147.89)
+                    at getErrorFromResponseBody (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/webdriverio/node_modules/webdriver/build/utils.js:121:10)
+                    at WebDriverRequest._request (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/webdriverio/node_modules/webdriver/build/request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)
+                    at async Browser.$$ (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/webdriverio/build/commands/browser/$$.js:13:15)
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)
+                    at async WebDriver._locate (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:742:19)
+                    at async WebDriver.seeElement (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:1222:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
