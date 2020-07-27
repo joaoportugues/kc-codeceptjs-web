@@ -1,137 +1,16 @@
-14:26:42.572 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
+16:02:27.124 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
     "args": [
-      "-remote-debugging-port",
-      "65331"
     ]
   }
 }
-14:26:42.574 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852803155	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileKr3lbv"
-1595852805502	Marionette	INFO	Listening on port 49203
-14:26:45.615 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:26:45.630 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3acacd3d-28b2-8146-a799-1468e719202a (org.openqa.selenium.firefox.GeckoDriverService)
-1595852809347	Marionette	INFO	Stopped listening on port 49203
-14:26:50.664 INFO [ActiveSessions$1.onStop] - Removing session 3acacd3d-28b2-8146-a799-1468e719202a (org.openqa.selenium.firefox.GeckoDriverService)
-14:26:50.723 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "-remote-debugging-port",
-      "65331"
-    ]
-  }
-}
-14:26:50.724 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852810758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileww520W"
-1595852813080	Marionette	INFO	Listening on port 49340
-14:26:53.127 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:26:53.129 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4bb87acb-b6ca-8844-bcb6-823e159ad257 (org.openqa.selenium.firefox.GeckoDriverService)
-JavaScript warning: https://apps.apple.com/assets/vendor-c669ec62bcb19145f899e0f0b73df978.js, line 3009: unreachable code after return statement
-1595852818106	Marionette	INFO	Stopped listening on port 49340
-14:27:00.455 INFO [ActiveSessions$1.onStop] - Removing session 4bb87acb-b6ca-8844-bcb6-823e159ad257 (org.openqa.selenium.firefox.GeckoDriverService)
-14:27:00.513 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "-remote-debugging-port",
-      "65331"
-    ]
-  }
-}
-14:27:00.513 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852820538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileIya81S"
-1595852822595	Marionette	INFO	Listening on port 49453
-14:27:02.693 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:27:02.694 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3c8e1565-36a5-6b4c-9917-625e45dea3c3 (org.openqa.selenium.firefox.GeckoDriverService)
-1595852835098	Marionette	INFO	Stopped listening on port 49453
-14:27:18.466 INFO [ActiveSessions$1.onStop] - Removing session 3c8e1565-36a5-6b4c-9917-625e45dea3c3 (org.openqa.selenium.firefox.GeckoDriverService)
-14:27:18.524 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "-remote-debugging-port",
-      "65331"
-    ]
-  }
-}
-14:27:18.524 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852838561	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileN9FE91"
-1595852840673	Marionette	INFO	Listening on port 49735
-14:27:20.709 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:27:20.711 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session be051bba-8231-d640-8fd2-faa52946c5bf (org.openqa.selenium.firefox.GeckoDriverService)
-1595852849675	Marionette	INFO	Stopped listening on port 49735
-14:27:31.001 INFO [ActiveSessions$1.onStop] - Removing session be051bba-8231-d640-8fd2-faa52946c5bf (org.openqa.selenium.firefox.GeckoDriverService)
-14:27:31.058 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "-remote-debugging-port",
-      "65331"
-    ]
-  }
-}
-14:27:31.058 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852851076	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofilenoBtGa"
-1595852853060	Marionette	INFO	Listening on port 49853
-14:27:33.145 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:27:33.146 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session bda9cca1-dff7-a440-a748-f2f86266d416 (org.openqa.selenium.firefox.GeckoDriverService)
-1595852862152	Marionette	INFO	Stopped listening on port 49853
-14:27:43.480 INFO [ActiveSessions$1.onStop] - Removing session bda9cca1-dff7-a440-a748-f2f86266d416 (org.openqa.selenium.firefox.GeckoDriverService)
-14:27:43.539 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "-remote-debugging-port",
-      "65331"
-    ]
-  }
-}
-14:27:43.540 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1595852863669	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-remote-debugging-port" "65331" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileCPguZS"
-1595852865816	Marionette	INFO	Listening on port 49976
-14:27:45.932 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:27:45.933 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3bd382cc-f727-c248-a731-753f896fb70c (org.openqa.selenium.firefox.GeckoDriverService)
-1595852868788	Marionette	INFO	Stopped listening on port 49976
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-14:27:50.135 INFO [ActiveSessions$1.onStop] - Removing session 3bd382cc-f727-c248-a731-753f896fb70c (org.openqa.selenium.firefox.GeckoDriverService)
+16:02:27.126 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 28952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595858548.189][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+16:02:28.258 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+16:02:28.282 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8e90d72a330f8aaaefc347cf6453f2de (org.openqa.selenium.chrome.ChromeDriverService)
+16:02:36.556 INFO [ActiveSessions$1.onStop] - Removing session 8e90d72a330f8aaaefc347cf6453f2de (org.openqa.selenium.chrome.ChromeDriverService)

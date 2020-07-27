@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595857623954' stop='1595857634960'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1595857625219' status='passed' stop='1595857634904'>
+            <name>confirm Google Store icon and redirection @runThis</name>
+            <title>confirm Google Store icon and redirection @runThis</title>
+            <labels>
+                <label name='tag' value='@runThis'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1595857628154' status='passed' stop='1595857628213'>
+                    <name>Then user sees "Google Store button" </name>
+                    <title>Then user sees "Google Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595857628154' status='passed' stop='1595857628213'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595857628154' status='passed' stop='1595857628213'>
+                                    <name>I see element "//img[@src="/assets/images/google-play.svg"]"</name>
+                                    <title>I see element "//img[@src="/assets/images/google-play.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595857628213' status='passed' stop='1595857629461'>
+                    <name>When user clicks "Google Store button" </name>
+                    <title>When user clicks "Google Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595857628213' status='passed' stop='1595857629461'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595857628213' status='passed' stop='1595857629461'>
+                                    <name>I click "//img[@src="/assets/images/google-play.svg"]"</name>
+                                    <title>I click "//img[@src="/assets/images/google-play.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595857629461' status='passed' stop='1595857630452'>
+                    <name>Then user sees "Google logo" </name>
+                    <title>Then user sees "Google logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595857629461' status='passed' stop='1595857630452'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595857629461' status='passed' stop='1595857629480'>
+                                    <name>I switch to next tab 1</name>
+                                    <title>I switch to next tab 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595857629481' status='passed' stop='1595857630452'>
+                                    <name>I see element "//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]"</name>
+                                    <title>I see element "//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595857630452' status='passed' stop='1595857630480'>
+                    <name>Then user sees "Kid-Coins" with format "h1" </name>
+                    <title>Then user sees "Kid-Coins" with format "h1" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595857630452' status='passed' stop='1595857630480'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595857630452' status='passed' stop='1595857630480'>
+                                    <name>I see "Kid-Coins", "h1"</name>
+                                    <title>I see "Kid-Coins", "h1"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595857630480' status='passed' stop='1595857634904'>
+                    <name>Then user sees "PEGI 3" with format "div" </name>
+                    <title>Then user sees "PEGI 3" with format "div" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595857630480' status='passed' stop='1595857634904'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595857630480' status='passed' stop='1595857634904'>
+                                    <name>I see "PEGI 3", "div"</name>
+                                    <title>I see "PEGI 3", "div"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

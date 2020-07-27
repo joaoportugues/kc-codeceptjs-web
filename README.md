@@ -27,7 +27,7 @@ cd kc-codeceptjs-web
 Codeceptjs
 
 ```sh
-npm install codeceptjs @wdio/selenium-standalone-service --save
+npm install codeceptjs webdriverio@6.3.5 --save
 
 ```
 
