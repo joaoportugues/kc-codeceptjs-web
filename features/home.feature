@@ -1,4 +1,4 @@
-Feature: Business rules
+Feature: Home page functionalities
   In order to learn about Kid Coins
   As a user
   I want to be able to navigate through the menus of the page
