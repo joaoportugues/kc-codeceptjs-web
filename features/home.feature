@@ -27,7 +27,7 @@ Feature: Home page functionalities
   	Then user sees "Nachrichten" with format "a"
   	Then user sees "Kontakt" with format "a"
     Then user sees "company logo"
-    
+  @runThis  
   Scenario: change language to Spanish and confirm options, logos and elements
   	When user clicks "language selector"
   	Then user sees "German flag"

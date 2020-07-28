@@ -6,7 +6,7 @@ exports.config = {
       browser: 'chrome',
       desiredCapabilities: {
 	    chromeOptions: {
-		  args: [/*"--headless",*/ "--window-size=1200,1000"]
+		  args: ["--headless", "--window-size=1200,1000"]
 	    }
       }
     },
@@ -37,7 +37,7 @@ exports.config = {
       outputDir: "./reports"
     },
     screenshotOnFail: {
-      enabled: true
+      enabled: false
     },
     retryFailedStep: {
       enabled: true
@@ -56,7 +56,7 @@ exports.config = {
           },
         },
       },
-      seleniumInstallArgs: {
+      /*seleniumInstallArgs: {
         version: '3.141.5',
         baseURL: 'https://selenium-release.storage.googleapis.com',
         drivers: {
@@ -71,7 +71,7 @@ exports.config = {
             baseURL: 'https://github.com/mozilla/geckodriver/releases/download',
           },
         },
-      },
+      },*/
     }
   },
   tests: './*_test.js',

@@ -53,6 +53,8 @@ from root folder of the project (--steps --features --debug --verbose are availa
 npx codeceptjs run
 ```
 or with workers (make sure to kill hanging sessions to avoid being blocked by the driver) 
+currently workers are not 100% reliable - suggested amount of worker = 2 if fail use simple run
+
 ```sh
 pkill -f chromedriver
 pkill -f geckodriver
