@@ -14,22 +14,6 @@ Feature: Business rules
     Then user sees "Contact" with format "a"
     Then user sees "company logo"
     Then user sees "language selector"
-    
-  Scenario: confirm Apple Store icon and redirection
-    Then user sees "Apple Store button"
-    When user clicks "Apple Store button"
-    Then user sees "Apple logo"
-    Then user sees "Kid-Coins" with format "h1"
-    Then user sees "The Family App" with format "h2"
-    Then user sees "Phil Munzenmaier" with format "a"
-   
-  @runThis 
-  Scenario: confirm Google Store icon and redirection
-    Then user sees "Google Store button"
-    When user clicks "Google Store button"
-    Then user sees "Google logo"
-    Then user sees "Kid-Coins" with format "h1"
-    Then user sees "PEGI 3" with format "div"
         
   Scenario: change language to German and confirm options, logos and elements
   	When user clicks "language selector"
@@ -60,3 +44,55 @@ Feature: Business rules
   Scenario: navigate to Vision and confirm logo changes
   	When user clicks "Vision"
     Then user sees "company logo small"
+    
+  Scenario: confirm Apple Store icon and redirection
+    Then user sees "Apple Store button"
+    When user clicks "Apple Store button"
+    Then user sees "Apple logo"
+    Then user sees "Kid-Coins" with format "h1"
+    Then user sees "The Family App" with format "h2"
+    Then user sees "Phil Munzenmaier" with format "a"
+   
+  Scenario: confirm Google Store icon and redirection
+    Then user sees "Google Store button"
+    When user clicks "Google Store button"
+    Then user sees "Google logo"
+    Then user sees "Kid-Coins" with format "h1"
+    Then user sees "PEGI 3" with format "div"
+    
+  Scenario: check that carousel messages circle correctly with next, second screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel next"
+    Then user sees "Motivated and happy" with format "h2"
+    
+  Scenario: check that carousel messages circle correctly with next, third screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel next"
+    When user clicks "Carousel next"
+    Then user sees "More happy moments" with format "h2"
+
+  Scenario: check that carousel messages circle correctly with next, back to first screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel next"
+    When user clicks "Carousel next"
+    When user clicks "Carousel next"
+    Then user sees "More quality time with friends and family" with format "h2"
+    
+  Scenario: check that carousel messages circle correctly with previous, third screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel previous"
+    Then user sees "More happy moments" with format "h2"
+    
+  Scenario: check that carousel messages circle correctly with previous, second screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel previous"
+    When user clicks "Carousel previous"
+    Then user sees "Motivated and happy" with format "h2"
+     
+  Scenario: check that carousel messages circle correctly with previous, back to first screen
+    Then user sees "More quality time with friends and family" with format "h2"
+    When user clicks "Carousel previous"
+    When user clicks "Carousel previous"
+    When user clicks "Carousel previous"
+    Then user sees "More quality time with friends and family" with format "h2"
+    

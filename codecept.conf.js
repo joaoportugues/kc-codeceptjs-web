@@ -29,6 +29,9 @@ exports.config = {
     steps: ['./step_definitions/steps.js']
   },
   plugins: {
+	autoDelay: {
+     enabled: false
+   },
 	allure: {
       enabled: true,
       outputDir: "./reports"

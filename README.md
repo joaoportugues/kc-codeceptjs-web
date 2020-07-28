@@ -52,6 +52,14 @@ from root folder of the project (--steps --features --debug --verbose are availa
 ```sh
 npx codeceptjs run
 ```
+or with workers (make sure to kill hanging sessions to avoid being blocked by the driver) 
+```sh
+pkill -f chromedriver
+pkill -f geckodriver
+```
+```sh
+npx codeceptjs run-workers 2
+```
 or
 ```sh
 npx codeceptjs run --debug

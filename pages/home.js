@@ -10,6 +10,11 @@ module.exports = {
 		germanFlagActive:'//span[@class="flag-icon flag-icon-de active"]',
 		spanishFlag: '//span[@class="flag-icon flag-icon-es"]',
 		spanishFlagActive: '//span[@class="flag-icon flag-icon-es active"]',
+		carouselNext:'//span[@class="icon-next carousel-control-next-icon"]',
+		carouselPrevious:'//span[@class="icon-prev carousel-control-prev-icon"]',
+	},
+	
+	storeElements: {
 		appleStoreButton: '//img[@src="/assets/images/app-store.svg"]',
 		googleStoreButton: '//img[@src="/assets/images/google-play.svg"]',
 		appleLogo: '//a[@href="https://www.apple.com/de/"]',
@@ -47,18 +52,24 @@ module.exports = {
 				I.seeElement(this.elements.spanishFlagActive)
 				break;
 			case 'apple store button': 
-				I.seeElement(this.elements.appleStoreButton)
+				I.seeElement(this.storeElements.appleStoreButton)
 				break;
 			case 'apple logo': 
 				I.switchToNextTab(1)
-				I.seeElement(this.elements.appleLogo)
+				I.seeElement(this.storeElements.appleLogo)
 				break;
 			case 'google store button': 
-				I.seeElement(this.elements.googleStoreButton)
+				I.seeElement(this.storeElements.googleStoreButton)
 				break;
 			case 'google logo': 
 				I.switchToNextTab(1)
-				I.seeElement(this.elements.googleLogo)
+				I.seeElement(this.storeElements.googleLogo)
+				break;
+			case 'carousel next': 
+				I.seeElement(this.elements.carouselNext)
+				break;
+			case 'carousel previous': 
+				I.seeElement(this.elements.carouselPrevious)
 				break;
 		}
 	},
@@ -78,20 +89,20 @@ module.exports = {
 				I.click(this.elements.spanishFlag)
 				break
 			case 'apple store button': 
-				I.click(this.elements.appleStoreButton)
+				I.click(this.storeElements.appleStoreButton)
 				break
 			case 'google store button': 
-				I.click(this.elements.googleStoreButton)
+				I.click(this.storeElements.googleStoreButton)
 				break
+			case 'carousel next': 
+				I.click(this.elements.carouselNext)
+				break;
+			case 'carousel previous': 
+				I.click(this.elements.carouselPrevious)
+				break;
 			default:
 				I.click(element)
 				break
 		}
-	},
-	
-	async assertTabTitle(expectedTitle) {
-		I.switchToNextTab(1)
-		const currentTitle = await I.grabTitle();
-		assert.equal(expectedTitle, currentTitle);
-	},
+	}
 }
