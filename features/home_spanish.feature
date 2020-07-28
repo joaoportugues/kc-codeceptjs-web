@@ -3,7 +3,7 @@ Feature: Home page carousel options and navigation in Spanish
   As a user
   I want to be able to navigate through the carousel options in Spanish
   
-  Background: navigate to home page
+  Background: navigate to home page and select Spanish language
     Given the user has browsed to the homepage
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "language selector"

@@ -12,6 +12,7 @@ module.exports = {
 		spanishFlagActive: '//span[@class="flag-icon flag-icon-es active"]',
 		carouselNext:'//span[@class="icon-next carousel-control-next-icon"]',
 		carouselPrevious:'//span[@class="icon-prev carousel-control-prev-icon"]',
+		backToTop: '//i[@class="far fa-arrow-up"]',
 	},
 	
 	storeElements: {
@@ -71,6 +72,9 @@ module.exports = {
 			case 'carousel previous': 
 				I.seeElement(this.elements.carouselPrevious)
 				break;
+			case 'back to top': 
+				I.seeElement(this.elements.backToTop)
+				break;
 		}
 	},
 	
@@ -100,9 +104,18 @@ module.exports = {
 			case 'carousel previous': 
 				I.click(this.elements.carouselPrevious)
 				break;
+			case 'back to top': 
+				I.click(this.elements.backToTop)
+				break;
 			default:
 				I.click(element)
 				break
 		}
-	}
+	},
+
+	assertTabState (text, buttonState){
+		buttonState = (buttonState.toLowerCase() == 'active') ? 'active' : ''
+		
+		I.seeElement('//a[contains(@class, "' + buttonState +'") and contains(text(),"' + text +'")]');
+	},
 }

@@ -1,5 +1,5 @@
 const { I } = inject();
-const home = require('../pages/home');
+const main = require('../pages/main');
 const fs = require('fs');
 const path = require('path');
 const directory = 'reports';
@@ -18,9 +18,10 @@ fs.readdir(directory, (err, files) => {
 // Add in your custom step files
 Given('the user has browsed to the homepage', () => I.amOnPage ('/'))
 
-Then('user sees {string} with format {string}', (text, tag) => home.readText (text, tag))
+Then('user sees {string} with format {string}', (text, tag) => main.readText (text, tag))
 
-Then('user sees {string}', (element) => home.assertElement(element))
+Then('user sees {string} button is {string}', (text, buttonState) => main.assertTabState(text, buttonState));
 
-When('user clicks {string}', (element) => home.clickElement(element))
+Then('user sees {string}', (element) => main.assertElement(element))
 
+When('user clicks {string}', (element) => main.clickElement(element))

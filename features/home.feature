@@ -27,7 +27,7 @@ Feature: Home page functionalities
   	Then user sees "Nachrichten" with format "a"
   	Then user sees "Kontakt" with format "a"
     Then user sees "company logo"
-  @runThis  
+
   Scenario: change language to Spanish and confirm options, logos and elements
   	When user clicks "language selector"
   	Then user sees "German flag"
@@ -44,6 +44,13 @@ Feature: Home page functionalities
   Scenario: navigate to Vision and confirm logo changes
   	When user clicks "Vision"
     Then user sees "company logo small"
+    
+  Scenario: navigate to Vision and back to top confirm logo changes
+    Then user sees "company logo"
+  	When user clicks "Vision"
+    Then user sees "company logo small"
+    When user clicks "Back to top"
+    Then user sees "company logo"
     
   Scenario: confirm Apple Store icon and redirection
     Then user sees "Apple Store button"
