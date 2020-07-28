@@ -6,7 +6,7 @@ exports.config = {
       browser: 'chrome',
       desiredCapabilities: {
 	    chromeOptions: {
-		  args: [/*"--headless",*/"--window-size=1200,1000"]
+		  args: [/*"--headless",*/ "--window-size=1200,1000"]
 	    }
       }
     },

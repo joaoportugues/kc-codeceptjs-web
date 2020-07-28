@@ -58,7 +58,6 @@ Feature: Home page functionalities
     When user clicks "Google Store button"
     Then user sees "Google logo"
     Then user sees "Kid-Coins" with format "h1"
-    Then user sees "PEGI 3" with format "div"
     
   Scenario: check that carousel messages circle correctly with next, second screen
     Then user sees "More quality time with friends and family" with format "h2"
