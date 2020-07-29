@@ -14,6 +14,7 @@ module.exports = {
 		carouselPrevious:'//span[@class="icon-prev carousel-control-prev-icon"]',
 		backToTop: '//i[@class="far fa-arrow-up"]',
 		tripleBarMenu: '//button[@class="navbar-toggler"]',
+		more: '//button[(@class="main-btn rounded") and contains(text(),"more")]',
 	},
 	
 	storeElements: {
@@ -119,6 +120,9 @@ module.exports = {
 			case 'triple bar menu': 
 				I.click(this.elements.tripleBarMenu)
 				break;
+			case 'more': 
+				I.click(this.elements.more)
+				break;
 			default:
 				I.click(element)
 				break
@@ -133,5 +137,25 @@ module.exports = {
 	
 	resizeWindow (width, height){
 		I.resizeWindow(width, height)
+	},
+	
+	scrollTo (element){
+		switch (element.toLowerCase()) {
+			case 'more': 
+				I.scrollIntoView(this.elements.more, { behavior: "smooth", block: "center", inline: "center" })
+				break
+			default:
+				I.scrollIntoView(element, { behavior: "smooth", block: "center", inline: "center" })
+				break
+		}
+	},
+	
+	async imageDimensions (imageNumber, expectedWidth){
+		const dimensions = await I.grabElementBoundingRect('//img[@src="/assets/images/News_' + imageNumber + '_Brush.png"]')
+		
+	  	var myJSON = JSON.stringify(dimensions)
+		var parsedJSON = JSON.parse(myJSON)
+		
+		assert.equal(parsedJSON.width, 350)
 	},
 }

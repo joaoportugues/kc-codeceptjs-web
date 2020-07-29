@@ -11,6 +11,7 @@ Feature: Contact section of the page
     Then user sees "Contact" button is "active"
     Then user sees "Home" button is "inactive"
     Then user sees "Contact" with format "p"
+    Then user sees "Feedback form" with format "p"
     Then user sees "company logo small"
      
   Scenario: user is sent to Contact and then back home using to top button with correct info and logos
@@ -36,6 +37,7 @@ Feature: Contact section of the page
     Then user sees "Kontakt" button is "active"
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Kontakt" with format "p"
+    Then user sees "Kontaktformular" with format "p"
     Then user sees "company logo small"
     
   Scenario: user is sent to Contact section with correct information and logos (Spanish)
@@ -45,5 +47,6 @@ Feature: Contact section of the page
     Then user sees "Contacto" button is "active"
     Then user sees "Hogar" button is "inactive"
     Then user sees "Contacto" with format "p"
+    Then user sees "Formulario de comentarios" with format "p"
     Then user sees "company logo small"
 

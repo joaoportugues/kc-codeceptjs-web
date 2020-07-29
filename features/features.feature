@@ -36,6 +36,7 @@ Feature: Features section of the page
     Then user sees "Wie funktioniert's" button is "active"
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Wie funktioniert's" with format "p"
+    Then user sees "Übersicht" with format "p"
     Then user sees "company logo small"
     
   Scenario: user is sent to Features section with correct information and logos (Spanish)

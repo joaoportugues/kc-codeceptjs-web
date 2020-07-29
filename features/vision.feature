@@ -11,6 +11,7 @@ Feature: Vision section of the page
     Then user sees "Vision" button is "active"
     Then user sees "Home" button is "inactive"
     Then user sees "Our vision" with format "p"
+    Then user sees "Be part of the future and make the difference! Kid-Coins wants..." with format "p"
     Then user sees "company logo small"
      
   Scenario: user is sent to Vision and then back home using to top button with correct info and logos
@@ -36,6 +37,7 @@ Feature: Vision section of the page
     Then user sees "Vision" button is "active"
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Unsere Vision" with format "p"
+    Then user sees "Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte..." with format "p"
     Then user sees "company logo small"
   
   @TKC-4 @trivial
@@ -54,6 +56,7 @@ Feature: Vision section of the page
     Then user sees "Visio" button is "active"
     Then user sees "Hogar" button is "inactive"
     Then user sees "Nuestra visión" with format "p"
+    Then user sees "¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere..." with format "p"
     Then user sees "company logo small"
 
   @TKC-4 @trivial
