@@ -79,14 +79,12 @@ Feature: Home page functionalities
     Then user sees "Apple logo"
     Then user sees "Kid-Coins" with format "h1"
     Then user sees "The Family App" with format "h2"
-    Then user sees "Phil Munzenmaier" with format "a"
    
   @blocker 
   Scenario: confirm Google Store icon and redirection
     Then user sees "Google Store button"
     When user clicks "Google Store button"
     Then user sees "Google logo"
-    Then user sees "Kid-Coins" with format "h1"
       
   Scenario: check that carousel messages circle correctly with next, second screen
     Then user sees "More quality time with friends and family" with format "h2"

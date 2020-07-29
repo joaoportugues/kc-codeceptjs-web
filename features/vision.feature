@@ -21,6 +21,14 @@ Feature: Vision section of the page
   	Then user sees "Vision" button is "inactive"
   	Then user sees "company logo"
   	
+  Scenario: user is sent to Vision and then back home using home button with correct info and logos
+    When user clicks "Vision"
+    Then user sees "Vision" button is "active"
+  	When user clicks "Home"
+  	Then user sees "Home" button is "active"
+  	Then user sees "Vision" button is "inactive"
+  	Then user sees "company logo"
+  	
   Scenario: user is sent to Vision section with correct information and logos (German)
     When user clicks "language selector"
     When user clicks "German flag"

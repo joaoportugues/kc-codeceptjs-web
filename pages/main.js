@@ -1,5 +1,5 @@
-const { I } = inject();
-const assert = require('assert');
+const { I } = inject()
+const assert = require('assert')
 
 module.exports = {
 	elements: {
@@ -25,7 +25,11 @@ module.exports = {
 	},
 	
 	readText(text, tag) {
-	I.see(text, tag);
+		//find if element is in the page
+		I.see(text, tag)
+	
+		//used to confirm the actual visibility of the element in the page
+		I.waitForVisible('//' + tag + '[contains(text(),"' + text +'")]')
 	},
 	
 	assertElement(element) {
@@ -122,12 +126,6 @@ module.exports = {
 	},
 
 	assertTabState (text, buttonState){
-		buttonState = (buttonState.toLowerCase() == 'active') ? 'active' : ''
-		
-		I.seeElement('//a[contains(@class, "' + buttonState +'") and contains(text(),"' + text +'")]');
-	},
-	
-	assertTripleBarState (text, buttonState){
 		buttonState = (buttonState.toLowerCase() == 'active') ? 'active' : ''
 		
 		I.seeElement('//a[contains(@class, "' + buttonState +'") and contains(text(),"' + text +'")]');

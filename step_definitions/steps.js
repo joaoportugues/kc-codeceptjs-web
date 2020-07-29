@@ -1,9 +1,9 @@
-const { I } = inject();
-const main = require('../pages/main');
-const fs = require('fs');
-const path = require('path');
-const directory = 'reports';
-const allure = codeceptjs.container.plugins('allure');
+const { I } = inject()
+const main = require('../pages/main')
+const fs = require('fs')
+const path = require('path')
+const directory = 'reports'
+const allure = codeceptjs.container.plugins('allure')
 
 //Cleaning up reports folder before starting tests.
 fs.readdir(directory, (err, files) => {
@@ -12,9 +12,9 @@ fs.readdir(directory, (err, files) => {
   for (const file of files) {
     fs.unlink(path.join(directory, file), err => {
       if (err) throw err;
-    });
+    })
   }
-});
+})
 
 //Tagging and categorization of tests
 After((test) => {
