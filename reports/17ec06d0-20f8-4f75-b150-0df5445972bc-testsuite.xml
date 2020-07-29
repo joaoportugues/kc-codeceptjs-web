@@ -1,0 +1,457 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596020917720' stop='1596020940037'>
+    <name>Home page carousel options and navigation in Spanish</name>
+    <title>Home page carousel options and navigation in Spanish</title>
+    <test-cases>
+        <test-case start='1596020917720' status='passed' stop='1596020921249'>
+            <name>check that carousel messages circle correctly with next, second screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with next, second screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020921031' status='passed' stop='1596020921108'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020921031' status='passed' stop='1596020921108'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020921033' status='passed' stop='1596020921108'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020921108' status='passed' stop='1596020921205'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020921108' status='passed' stop='1596020921205'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020921108' status='passed' stop='1596020921205'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020921205' status='passed' stop='1596020921249'>
+                    <name>Then user sees "Motivado y feliz" with format "h2" </name>
+                    <title>Then user sees "Motivado y feliz" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020921205' status='passed' stop='1596020921249'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020921205' status='passed' stop='1596020921249'>
+                                    <name>I see "Motivado y feliz", "h2"</name>
+                                    <title>I see "Motivado y feliz", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596020921304' status='passed' stop='1596020924880'>
+            <name>check that carousel messages circle correctly with next, third screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with next, third screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020924416' status='passed' stop='1596020924495'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020924416' status='passed' stop='1596020924495'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020924416' status='passed' stop='1596020924495'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020924495' status='passed' stop='1596020924645'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020924495' status='passed' stop='1596020924645'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020924495' status='passed' stop='1596020924587'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020924587' status='passed' stop='1596020924645'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020924645' status='passed' stop='1596020924880'>
+                    <name>Then user sees "Más momentos felices" with format "h2" </name>
+                    <title>Then user sees "Más momentos felices" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020924645' status='passed' stop='1596020924880'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020924645' status='passed' stop='1596020924880'>
+                                    <name>I see "Más momentos felices", "h2"</name>
+                                    <title>I see "Más momentos felices", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596020924937' status='passed' stop='1596020928235'>
+            <name>check that carousel messages circle correctly with next, back to first screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with next, back to first screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020927922' status='passed' stop='1596020927993'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020927922' status='passed' stop='1596020927993'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020927922' status='passed' stop='1596020927993'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020927993' status='passed' stop='1596020928195'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020927993' status='passed' stop='1596020928195'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020927993' status='passed' stop='1596020928069'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020928069' status='passed' stop='1596020928140'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020928140' status='passed' stop='1596020928195'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020928195' status='passed' stop='1596020928235'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020928195' status='passed' stop='1596020928235'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020928195' status='passed' stop='1596020928235'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596020928290' status='passed' stop='1596020931983'>
+            <name>check that carousel messages circle correctly with previous, third screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with previous, third screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020931576' status='passed' stop='1596020931811'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020931576' status='passed' stop='1596020931811'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020931576' status='passed' stop='1596020931811'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020931811' status='passed' stop='1596020931917'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020931811' status='passed' stop='1596020931917'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020931811' status='passed' stop='1596020931917'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020931917' status='passed' stop='1596020931983'>
+                    <name>Then user sees "Más momentos felices" with format "h2" </name>
+                    <title>Then user sees "Más momentos felices" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020931917' status='passed' stop='1596020931983'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020931917' status='passed' stop='1596020931983'>
+                                    <name>I see "Más momentos felices", "h2"</name>
+                                    <title>I see "Más momentos felices", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596020932043' status='passed' stop='1596020936439'>
+            <name>check that carousel messages circle correctly with previous, second screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with previous, second screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020935949' status='passed' stop='1596020936032'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020935949' status='passed' stop='1596020936032'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020935949' status='passed' stop='1596020936031'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020936032' status='passed' stop='1596020936198'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020936032' status='passed' stop='1596020936198'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020936032' status='passed' stop='1596020936121'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020936121' status='passed' stop='1596020936198'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020936198' status='passed' stop='1596020936439'>
+                    <name>Then user sees "Motivado y feliz" with format "h2" </name>
+                    <title>Then user sees "Motivado y feliz" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020936198' status='passed' stop='1596020936439'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020936198' status='passed' stop='1596020936439'>
+                                    <name>I see "Motivado y feliz", "h2"</name>
+                                    <title>I see "Motivado y feliz", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596020936493' status='passed' stop='1596020939981'>
+            <name>check that carousel messages circle correctly with previous, back to first screen (Spanish)</name>
+            <title>check that carousel messages circle correctly with previous, back to first screen (Spanish)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596020939627' status='passed' stop='1596020939689'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020939627' status='passed' stop='1596020939689'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020939627' status='passed' stop='1596020939689'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020939689' status='passed' stop='1596020939932'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020939689' status='passed' stop='1596020939932'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020939689' status='passed' stop='1596020939796'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020939796' status='passed' stop='1596020939870'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596020939870' status='passed' stop='1596020939932'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596020939932' status='passed' stop='1596020939981'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596020939932' status='passed' stop='1596020939981'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596020939932' status='passed' stop='1596020939981'>
+                                    <name>I see "Más tiempo de calidad con amigos y familiares", "h2"</name>
+                                    <title>I see "Más tiempo de calidad con amigos y familiares", "h2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

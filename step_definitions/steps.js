@@ -25,3 +25,5 @@ Then('user sees {string} button is {string}', (text, buttonState) => main.assert
 Then('user sees {string}', (element) => main.assertElement(element))
 
 When('user clicks {string}', (element) => main.clickElement(element))
+
+When('I resize window {int} by {int}', (width, height) => main.resizeWindow(width, height));

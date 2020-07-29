@@ -13,6 +13,7 @@ module.exports = {
 		carouselNext:'//span[@class="icon-next carousel-control-next-icon"]',
 		carouselPrevious:'//span[@class="icon-prev carousel-control-prev-icon"]',
 		backToTop: '//i[@class="far fa-arrow-up"]',
+		tripleBarMenu: '//button[@class="navbar-toggler"]',
 	},
 	
 	storeElements: {
@@ -75,6 +76,10 @@ module.exports = {
 			case 'back to top': 
 				I.seeElement(this.elements.backToTop)
 				break;
+			case 'triple bar menu': 
+				I.seeElement(this.elements.tripleBarMenu)
+				I.dontSee('Home')
+				break;
 		}
 	},
 	
@@ -107,6 +112,9 @@ module.exports = {
 			case 'back to top': 
 				I.click(this.elements.backToTop)
 				break;
+			case 'triple bar menu': 
+				I.click(this.elements.tripleBarMenu)
+				break;
 			default:
 				I.click(element)
 				break
@@ -117,5 +125,15 @@ module.exports = {
 		buttonState = (buttonState.toLowerCase() == 'active') ? 'active' : ''
 		
 		I.seeElement('//a[contains(@class, "' + buttonState +'") and contains(text(),"' + text +'")]');
+	},
+	
+	assertTripleBarState (text, buttonState){
+		buttonState = (buttonState.toLowerCase() == 'active') ? 'active' : ''
+		
+		I.seeElement('//a[contains(@class, "' + buttonState +'") and contains(text(),"' + text +'")]');
+	},
+	
+	resizeWindow (width, height){
+		I.resizeWindow(width, height)
 	},
 }

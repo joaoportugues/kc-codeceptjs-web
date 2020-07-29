@@ -45,6 +45,24 @@ Feature: Home page functionalities
   	When user clicks "Vision"
     Then user sees "company logo small"
     
+  @TKC-2  
+  Scenario: check that menu in windowed mode works properly
+ 	When I resize window 768 by 1024
+ 	Then user sees "triple bar menu"
+ 	Then user clicks "triple bar menu"
+ 	Then user clicks "Vision"
+ 	Then user sees "triple bar menu"    
+ 
+  @TKC-3
+  Scenario: check that menu and language in windowed mode work properly
+ 	When I resize window 768 by 1024
+ 	Then user sees "triple bar menu"
+ 	When user clicks "triple bar menu"
+ 	When user clicks "language selector"
+ 	Then user sees "German flag"
+ 	Then user sees "Spanish flag"
+ 	Then user sees "triple bar menu"    
+    
   Scenario: navigate to Vision and back to top confirm logo changes
     Then user sees "company logo"
   	When user clicks "Vision"
@@ -101,4 +119,3 @@ Feature: Home page functionalities
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     Then user sees "More quality time with friends and family" with format "h2"
-    

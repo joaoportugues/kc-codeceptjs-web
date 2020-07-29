@@ -20,7 +20,6 @@ Feature: Vision section of the page
   	Then user sees "Home" button is "active"
   	Then user sees "Vision" button is "inactive"
   	
-  @runThis 
   Scenario: user is sent to Vision section with correct information and logos (German)
     When user clicks "language selector"
     When user clicks "German flag"
@@ -29,8 +28,8 @@ Feature: Vision section of the page
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Unsere Vision" with format "p"
     Then user sees "company logo small"
-  	
-  @runThis  
+  
+  @TKC-4 
   Scenario: user is sent to Vision section and then after changing language the section is displayed correctly (German)
     When user clicks "Vision"
     When user clicks "language selector"
@@ -39,7 +38,6 @@ Feature: Vision section of the page
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Unsere Vision" with format "p"
     
-  @runThis 
   Scenario: user is sent to Vision section with correct information and logos (Spanish)
     When user clicks "language selector"
     When user clicks "Spanish flag"
@@ -48,8 +46,8 @@ Feature: Vision section of the page
     Then user sees "Hogar" button is "inactive"
     Then user sees "Nuestra visión" with format "p"
     Then user sees "company logo small"
-  	
-  @runThis  
+
+  @TKC-4
   Scenario: user is sent to Vision section and then after changing language the section is displayed correctly (Spanish)
     When user clicks "Vision"
     When user clicks "language selector"
