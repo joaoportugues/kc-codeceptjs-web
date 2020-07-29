@@ -1,4 +1,4 @@
-19:11:11.569 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+12:20:52.703 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -7,16 +7,16 @@
     ]
   }
 }
-19:11:11.571 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 37780
+12:20:52.705 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 31905
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956272.047][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:12.240 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:12.256 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session fb990f4f734491950e6507a6dca33855 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:15.354 INFO [ActiveSessions$1.onStop] - Removing session fb990f4f734491950e6507a6dca33855 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:15.388 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018053.306][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:20:53.602 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:20:53.624 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 540c3b53915f689deaed1a24d7d34c16 (org.openqa.selenium.chrome.ChromeDriverService)
+12:20:57.058 INFO [ActiveSessions$1.onStop] - Removing session 540c3b53915f689deaed1a24d7d34c16 (org.openqa.selenium.chrome.ChromeDriverService)
+12:20:57.098 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -25,16 +25,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:15.388 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 12026
+12:20:57.099 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10049
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956275.614][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:15.903 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:15.905 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 02d4be252f552758aa09b280dd409c99 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:18.930 INFO [ActiveSessions$1.onStop] - Removing session 02d4be252f552758aa09b280dd409c99 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:18.969 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018057.475][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:20:57.785 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:20:57.787 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 86f95dec39cdcfd8157a0fc85222d1b2 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:00.912 INFO [ActiveSessions$1.onStop] - Removing session 86f95dec39cdcfd8157a0fc85222d1b2 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:00.948 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -43,16 +43,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:18.970 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 23547
+12:21:00.949 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19771
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956279.209][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:19.499 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:19.501 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 96c00f77db4d3ffa37ad65a0fa29a390 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:22.333 INFO [ActiveSessions$1.onStop] - Removing session 96c00f77db4d3ffa37ad65a0fa29a390 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:22.366 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018061.206][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:01.469 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:01.470 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 970a478b75c679c2865a35b68521ad3f (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:04.460 INFO [ActiveSessions$1.onStop] - Removing session 970a478b75c679c2865a35b68521ad3f (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:04.499 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -61,16 +61,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:22.366 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 18773
+12:21:04.500 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 46465
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956282.581][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:22.824 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:22.826 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 42f23e636c12e68f5fb8e4c288ef79c1 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:25.617 INFO [ActiveSessions$1.onStop] - Removing session 42f23e636c12e68f5fb8e4c288ef79c1 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:25.651 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018064.732][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:04.950 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:04.952 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b6fe2bb113f4e0c264f996c7a08961fd (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:07.771 INFO [ActiveSessions$1.onStop] - Removing session b6fe2bb113f4e0c264f996c7a08961fd (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:07.807 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -79,16 +79,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:25.651 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27749
+12:21:07.807 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17777
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956285.890][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:26.148 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:26.150 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4feeaec0bf117d1b232b321629174aab (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:29.226 INFO [ActiveSessions$1.onStop] - Removing session 4feeaec0bf117d1b232b321629174aab (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:29.274 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018068.031][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:08.220 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:08.221 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 333194f93df3f4afd022af13d42bc1fb (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:11.260 INFO [ActiveSessions$1.onStop] - Removing session 333194f93df3f4afd022af13d42bc1fb (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:11.296 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -97,16 +97,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:29.275 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 26912
+12:21:11.296 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 45835
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956289.522][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:29.769 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:29.771 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 9a31fe9aed49c0cbc97752a8a7c57be4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:32.798 INFO [ActiveSessions$1.onStop] - Removing session 9a31fe9aed49c0cbc97752a8a7c57be4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:32.835 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018071.519][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:11.790 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:11.791 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2d43d19bb6a9b2325af7e43c31cb3a6e (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:14.742 INFO [ActiveSessions$1.onStop] - Removing session 2d43d19bb6a9b2325af7e43c31cb3a6e (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:14.776 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -115,16 +115,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:32.835 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13222
+12:21:14.776 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27591
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956293.068][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:33.298 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:33.299 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session aa80ca0fa6ad58f604d56e4becb63eed (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:36.046 INFO [ActiveSessions$1.onStop] - Removing session aa80ca0fa6ad58f604d56e4becb63eed (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:36.081 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018074.994][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:15.197 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:15.198 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4d77ee9f6ec80f0768264afbacdbb7d6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:18.016 INFO [ActiveSessions$1.onStop] - Removing session 4d77ee9f6ec80f0768264afbacdbb7d6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:18.052 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -133,16 +133,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:36.082 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 35103
+12:21:18.052 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 30738
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956296.303][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:36.526 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:36.527 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7cccfd2847645824787f4287633bb97e (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:39.584 INFO [ActiveSessions$1.onStop] - Removing session 7cccfd2847645824787f4287633bb97e (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:39.619 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018078.277][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:18.514 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:18.516 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 60ba3a10660e8237176d3a3858e3cec6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:21.771 INFO [ActiveSessions$1.onStop] - Removing session 60ba3a10660e8237176d3a3858e3cec6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:21.805 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -151,16 +151,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:39.620 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 4760
+12:21:21.806 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 42408
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956299.846][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:40.070 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:40.071 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 18346f3454052c5aec5d698ac06285e4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:43.056 INFO [ActiveSessions$1.onStop] - Removing session 18346f3454052c5aec5d698ac06285e4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:43.089 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018082.095][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:22.517 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:22.519 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 005b4241cffc3e5e44e8ed04c2e08a79 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:25.437 INFO [ActiveSessions$1.onStop] - Removing session 005b4241cffc3e5e44e8ed04c2e08a79 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:25.475 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -169,16 +169,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:43.089 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 23846
+12:21:25.476 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41510
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956303.316][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:43.511 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:43.512 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 1ef882b641ff35509dcf6ad036eef3fe (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:46.519 INFO [ActiveSessions$1.onStop] - Removing session 1ef882b641ff35509dcf6ad036eef3fe (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:46.555 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018085.703][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:25.961 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:25.963 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session cfe0b0639da934c6e91ca5ffc8f22515 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:28.756 INFO [ActiveSessions$1.onStop] - Removing session cfe0b0639da934c6e91ca5ffc8f22515 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:28.793 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -187,16 +187,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:46.556 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 4092
+12:21:28.793 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 14353
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956306.775][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:46.987 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:46.988 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4a5fd5fbda0993365f3fc613e4eb307a (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:50.066 INFO [ActiveSessions$1.onStop] - Removing session 4a5fd5fbda0993365f3fc613e4eb307a (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:50.098 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018089.051][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:29.311 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:29.313 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dd5300fb06281288302e5327dbd155a4 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:32.673 INFO [ActiveSessions$1.onStop] - Removing session dd5300fb06281288302e5327dbd155a4 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:32.713 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -205,16 +205,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:50.098 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 33460
+12:21:32.714 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29789
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956310.292][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:50.520 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:50.521 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session be14b1e768cac402d14b5532d3e0798f (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:53.917 INFO [ActiveSessions$1.onStop] - Removing session be14b1e768cac402d14b5532d3e0798f (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:53.965 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018092.998][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:33.299 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:33.300 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 566fb732d7696fdb7d9da1d98dae3f48 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:38.079 INFO [ActiveSessions$1.onStop] - Removing session 566fb732d7696fdb7d9da1d98dae3f48 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:38.114 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -223,16 +223,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:53.965 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 32925
+12:21:38.115 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 22143
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956314.279][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:54.584 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:54.586 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7b5238f85cb4aa45cfbb539d277a7c5f (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:57.643 INFO [ActiveSessions$1.onStop] - Removing session 7b5238f85cb4aa45cfbb539d277a7c5f (org.openqa.selenium.chrome.ChromeDriverService)
-19:11:57.677 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018098.345][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:38.587 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:38.589 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 5ae84f96f61496c0fb4da636affe38c7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:41.839 INFO [ActiveSessions$1.onStop] - Removing session 5ae84f96f61496c0fb4da636affe38c7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:41.879 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -241,16 +241,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:11:57.678 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 47351
+12:21:41.880 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 2929
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956317.951][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:11:58.258 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:11:58.260 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 9c60fba526c7fa72d08c640eb19bd919 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:02.551 INFO [ActiveSessions$1.onStop] - Removing session 9c60fba526c7fa72d08c640eb19bd919 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:02.587 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018102.105][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:42.391 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:42.393 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session e1b60c76aa23f2edfac84647d07e6606 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:46.921 INFO [ActiveSessions$1.onStop] - Removing session e1b60c76aa23f2edfac84647d07e6606 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:46.955 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -259,16 +259,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:02.587 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 31365
+12:21:46.955 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 15197
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956322.825][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:03.105 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:03.106 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 793bdd7efb2a888888d42b5010e9166e (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:07.513 INFO [ActiveSessions$1.onStop] - Removing session 793bdd7efb2a888888d42b5010e9166e (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:07.559 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018107.223][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:47.625 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:47.626 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session fb308b710e027f5c589fd12d4ab0d532 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:51.993 INFO [ActiveSessions$1.onStop] - Removing session fb308b710e027f5c589fd12d4ab0d532 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:52.027 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -277,16 +277,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:07.560 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7732
+12:21:52.027 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 30063
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956327.801][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:08.065 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:08.067 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 919e0f8c8a3818b5fff6ba8faeb53454 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:10.890 INFO [ActiveSessions$1.onStop] - Removing session 919e0f8c8a3818b5fff6ba8faeb53454 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:10.934 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018112.258][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:52.565 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:52.567 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8c37cbc98e38ba9e0d10a0d58083ff03 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:55.367 INFO [ActiveSessions$1.onStop] - Removing session 8c37cbc98e38ba9e0d10a0d58083ff03 (org.openqa.selenium.chrome.ChromeDriverService)
+12:21:55.400 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -295,16 +295,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:10.934 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10836
+12:21:55.400 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 18652
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956331.186][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:11.428 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:11.429 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8982c099f035743f44dbceab14d867d4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:15.772 INFO [ActiveSessions$1.onStop] - Removing session 8982c099f035743f44dbceab14d867d4 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:15.812 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018115.655][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:21:55.978 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:21:55.980 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session a146850443f970ba9d04bfa3b1a1f209 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:00.342 INFO [ActiveSessions$1.onStop] - Removing session a146850443f970ba9d04bfa3b1a1f209 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:00.378 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -313,16 +313,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:15.812 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 35225
+12:22:00.379 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 43797
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956336.041][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:16.283 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:16.285 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2f2ecca8dcae373418f3ebeb993061c1 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:21.318 INFO [ActiveSessions$1.onStop] - Removing session 2f2ecca8dcae373418f3ebeb993061c1 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:21.366 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018120.644][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:00.965 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:00.966 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 5419d2f81637dfc1870e82692c3af1d8 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:07.058 INFO [ActiveSessions$1.onStop] - Removing session 5419d2f81637dfc1870e82692c3af1d8 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:07.101 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -331,16 +331,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:21.366 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 32952
+12:22:07.102 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 45173
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956341.584][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:21.902 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:21.903 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8272cf5aa00a6a0711bd94d58dc4d9ba (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:25.528 INFO [ActiveSessions$1.onStop] - Removing session 8272cf5aa00a6a0711bd94d58dc4d9ba (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:25.578 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018127.336][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:07.616 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:07.618 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b9c96bfbb39e6d6ca62dfb06a255914e (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:11.423 INFO [ActiveSessions$1.onStop] - Removing session b9c96bfbb39e6d6ca62dfb06a255914e (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:11.473 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -349,16 +349,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:25.579 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29644
+12:22:11.474 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 39592
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956345.810][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:26.081 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:26.083 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 377f83d532131fa802a4f04d5a642af0 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:29.083 INFO [ActiveSessions$1.onStop] - Removing session 377f83d532131fa802a4f04d5a642af0 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:29.116 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018131.704][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:11.950 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:11.952 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session ffce5732198f166cd9395d8822b79bc4 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:14.814 INFO [ActiveSessions$1.onStop] - Removing session ffce5732198f166cd9395d8822b79bc4 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:14.845 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -367,16 +367,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:29.116 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 31301
+12:22:14.846 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7295
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956349.366][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:29.628 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:29.629 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 488087f79e3989f972b68bf7eeb7ea33 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:32.498 INFO [ActiveSessions$1.onStop] - Removing session 488087f79e3989f972b68bf7eeb7ea33 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:32.530 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018135.074][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:15.321 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:15.322 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 03641692545e19a50b42d7be6ecaf20f (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:18.334 INFO [ActiveSessions$1.onStop] - Removing session 03641692545e19a50b42d7be6ecaf20f (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:18.371 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -385,16 +385,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:32.531 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29515
+12:22:18.371 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 2603
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956352.752][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:33.018 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:33.019 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session cd4307dda2b4385fb5735fe53065f906 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:35.659 INFO [ActiveSessions$1.onStop] - Removing session cd4307dda2b4385fb5735fe53065f906 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:35.699 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018138.607][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:18.918 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:18.919 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 9f3d4b4868ca6da92c33847b25a4a865 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:21.633 INFO [ActiveSessions$1.onStop] - Removing session 9f3d4b4868ca6da92c33847b25a4a865 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:21.666 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -403,16 +403,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:35.699 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 26921
+12:22:21.666 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 45570
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956355.967][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:36.216 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:36.217 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session e7be077fef928b49ae8733054dbd8dd8 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:38.736 INFO [ActiveSessions$1.onStop] - Removing session e7be077fef928b49ae8733054dbd8dd8 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:38.770 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018141.975][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:22.249 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:22.251 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 1fa8b1230b4ac5a99536486d6a366663 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:25.042 INFO [ActiveSessions$1.onStop] - Removing session 1fa8b1230b4ac5a99536486d6a366663 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:25.075 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -421,16 +421,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:38.770 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13288
+12:22:25.075 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 40737
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956358.993][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:39.242 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:39.243 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2b044fd83bd89a9f0316171e3651c9be (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:42.030 INFO [ActiveSessions$1.onStop] - Removing session 2b044fd83bd89a9f0316171e3651c9be (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:42.061 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018145.298][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:25.556 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:25.559 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b84fdbaf18571f8676e038b007335e08 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:28.622 INFO [ActiveSessions$1.onStop] - Removing session b84fdbaf18571f8676e038b007335e08 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:28.656 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -439,16 +439,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:42.061 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 26966
+12:22:28.657 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 47887
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956362.265][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:42.488 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:42.489 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 30ef5ddeb4c68fa70c0d13ab696a07df (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:45.698 INFO [ActiveSessions$1.onStop] - Removing session 30ef5ddeb4c68fa70c0d13ab696a07df (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:45.754 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018148.892][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:29.225 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:29.227 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 64183328bbf6c12cd2d01e13079d3ed3 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:31.932 INFO [ActiveSessions$1.onStop] - Removing session 64183328bbf6c12cd2d01e13079d3ed3 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:31.973 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -457,16 +457,16 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:45.754 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13331
+12:22:31.974 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19259
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956365.997][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:46.222 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:46.223 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7f6314b2f7d1f6942aade2134918a80a (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:50.376 INFO [ActiveSessions$1.onStop] - Removing session 7f6314b2f7d1f6942aade2134918a80a (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:50.407 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1596018152.201][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:32.502 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:32.503 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session de1cdd989f45160e4a2a4a88c82b5e31 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:36.736 INFO [ActiveSessions$1.onStop] - Removing session de1cdd989f45160e4a2a4a88c82b5e31 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:36.773 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
     "args": [
@@ -475,12 +475,84 @@ ChromeDriver was started successfully.
     ]
   }
 }
-19:12:50.408 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 28905
+12:22:36.774 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 3414
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595956370.635][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-19:12:50.900 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-19:12:50.902 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f2bd88359d44abf8eb398fb8c43a27d3 (org.openqa.selenium.chrome.ChromeDriverService)
-19:12:55.132 INFO [ActiveSessions$1.onStop] - Removing session f2bd88359d44abf8eb398fb8c43a27d3 (org.openqa.selenium.chrome.ChromeDriverService)
+[1596018157.002][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:37.270 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:37.271 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f32dccfcdead55717666fd4e51bf2f08 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:41.545 INFO [ActiveSessions$1.onStop] - Removing session f32dccfcdead55717666fd4e51bf2f08 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:41.579 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--headless",
+      "--window-size=1200,1000"
+    ]
+  }
+}
+12:22:41.579 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 47667
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596018161.809][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:42.050 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:42.051 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8c9770a8ff980cb3c82ccdfd79850be5 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:46.236 INFO [ActiveSessions$1.onStop] - Removing session 8c9770a8ff980cb3c82ccdfd79850be5 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:46.270 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--headless",
+      "--window-size=1200,1000"
+    ]
+  }
+}
+12:22:46.270 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596018166.493][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:46.712 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:46.713 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 6b733d7809b60e5327c8d2e48d04b992 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:56.741 INFO [ActiveSessions$1.onStop] - Removing session 6b733d7809b60e5327c8d2e48d04b992 (org.openqa.selenium.chrome.ChromeDriverService)
+12:22:56.777 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--headless",
+      "--window-size=1200,1000"
+    ]
+  }
+}
+12:22:56.777 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10518
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596018177.032][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:22:57.344 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:22:57.345 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dd5a2c4990632ab7852c5b2366e204d7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:23:01.695 INFO [ActiveSessions$1.onStop] - Removing session dd5a2c4990632ab7852c5b2366e204d7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:23:01.727 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--headless",
+      "--window-size=1200,1000"
+    ]
+  }
+}
+12:23:01.728 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34671
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596018181.977][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+12:23:02.321 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+12:23:02.326 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3fa1d4c8be0d83a2946a85a069e9f4cd (org.openqa.selenium.chrome.ChromeDriverService)
+12:23:14.014 INFO [ActiveSessions$1.onStop] - Removing session 3fa1d4c8be0d83a2946a85a069e9f4cd (org.openqa.selenium.chrome.ChromeDriverService)

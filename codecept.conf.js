@@ -37,7 +37,7 @@ exports.config = {
       outputDir: "./reports"
     },
     screenshotOnFail: {
-      enabled: false
+      enabled: true
     },
     retryFailedStep: {
       enabled: true
