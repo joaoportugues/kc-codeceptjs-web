@@ -13,12 +13,13 @@ Feature: Vision section of the page
     Then user sees "Our vision" with format "p"
     Then user sees "company logo small"
      
-  Scenario: user is sent to Vision and then back home with correct info and logos
+  Scenario: user is sent to Vision and then back home using to top button with correct info and logos
     When user clicks "Vision"
     Then user sees "Vision" button is "active"
   	When user clicks "Back to top"
   	Then user sees "Home" button is "active"
   	Then user sees "Vision" button is "inactive"
+  	Then user sees "company logo"
   	
   Scenario: user is sent to Vision section with correct information and logos (German)
     When user clicks "language selector"
@@ -29,7 +30,7 @@ Feature: Vision section of the page
     Then user sees "Unsere Vision" with format "p"
     Then user sees "company logo small"
   
-  @TKC-4 
+  @TKC-4 @trivial
   Scenario: user is sent to Vision section and then after changing language the section is displayed correctly (German)
     When user clicks "Vision"
     When user clicks "language selector"
@@ -47,7 +48,7 @@ Feature: Vision section of the page
     Then user sees "Nuestra visión" with format "p"
     Then user sees "company logo small"
 
-  @TKC-4
+  @TKC-4 @trivial
   Scenario: user is sent to Vision section and then after changing language the section is displayed correctly (Spanish)
     When user clicks "Vision"
     When user clicks "language selector"

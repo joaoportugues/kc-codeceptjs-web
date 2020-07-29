@@ -5,7 +5,7 @@ Feature: Home page functionalities
   
   Background: navigate to home page
     Given the user has browsed to the homepage
- 
+  @blocker
   Scenario: confirm header options, logos and elements
     Then user sees "Home" with format "a"
     Then user sees "Vision" with format "a"
@@ -14,7 +14,8 @@ Feature: Home page functionalities
     Then user sees "Contact" with format "a"
     Then user sees "company logo"
     Then user sees "language selector"
-        
+  
+  @critical      
   Scenario: change language to German and confirm options, logos and elements
   	When user clicks "language selector"
   	Then user sees "German flag"
@@ -27,7 +28,8 @@ Feature: Home page functionalities
   	Then user sees "Nachrichten" with format "a"
   	Then user sees "Kontakt" with format "a"
     Then user sees "company logo"
-
+  
+  @critical
   Scenario: change language to Spanish and confirm options, logos and elements
   	When user clicks "language selector"
   	Then user sees "German flag"
@@ -40,12 +42,12 @@ Feature: Home page functionalities
   	Then user sees "Noticias" with format "a"
   	Then user sees "Contacto" with format "a"
     Then user sees "company logo"
-    
+  
   Scenario: navigate to Vision and confirm logo changes
   	When user clicks "Vision"
     Then user sees "company logo small"
     
-  @TKC-2  
+  @TKC-2 @trivial
   Scenario: check that menu in windowed mode works properly
  	When I resize window 768 by 1024
  	Then user sees "triple bar menu"
@@ -53,7 +55,7 @@ Feature: Home page functionalities
  	Then user clicks "Vision"
  	Then user sees "triple bar menu"    
  
-  @TKC-3
+  @TKC-3 @minor
   Scenario: check that menu and language in windowed mode work properly
  	When I resize window 768 by 1024
  	Then user sees "triple bar menu"
@@ -69,7 +71,8 @@ Feature: Home page functionalities
     Then user sees "company logo small"
     When user clicks "Back to top"
     Then user sees "company logo"
-    
+  
+  @blocker  
   Scenario: confirm Apple Store icon and redirection
     Then user sees "Apple Store button"
     When user clicks "Apple Store button"
@@ -78,12 +81,13 @@ Feature: Home page functionalities
     Then user sees "The Family App" with format "h2"
     Then user sees "Phil Munzenmaier" with format "a"
    
+  @blocker 
   Scenario: confirm Google Store icon and redirection
     Then user sees "Google Store button"
     When user clicks "Google Store button"
     Then user sees "Google logo"
     Then user sees "Kid-Coins" with format "h1"
-    
+      
   Scenario: check that carousel messages circle correctly with next, second screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel next"
@@ -95,6 +99,7 @@ Feature: Home page functionalities
     When user clicks "Carousel next"
     Then user sees "More happy moments" with format "h2"
 
+  @minor
   Scenario: check that carousel messages circle correctly with next, back to first screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel next"
@@ -112,7 +117,8 @@ Feature: Home page functionalities
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     Then user sees "Motivated and happy" with format "h2"
-     
+  
+  @minor   
   Scenario: check that carousel messages circle correctly with previous, back to first screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel previous"

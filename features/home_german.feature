@@ -21,6 +21,7 @@ Feature: Home page carousel options and navigation in German
     When user clicks "Carousel next"
     Then user sees "Mehr Glücksmomente" with format "h2"
 
+  @minor
   Scenario: check that carousel messages circle correctly with next, back to first screen (German)
     Then user sees "Mehr Quality Time mit Friends und Family" with format "h2"
     When user clicks "Carousel next"
@@ -38,7 +39,8 @@ Feature: Home page carousel options and navigation in German
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     Then user sees "Motiviert und macht glücklich" with format "h2"
-     
+  
+  @minor     
   Scenario: check that carousel messages circle correctly with previous, back to first screen (German)
     Then user sees "Mehr Quality Time mit Friends und Family" with format "h2"
     When user clicks "Carousel previous"

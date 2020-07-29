@@ -3,6 +3,7 @@ const main = require('../pages/main');
 const fs = require('fs');
 const path = require('path');
 const directory = 'reports';
+const allure = codeceptjs.container.plugins('allure');
 
 //Cleaning up reports folder before starting tests.
 fs.readdir(directory, (err, files) => {
@@ -14,6 +15,25 @@ fs.readdir(directory, (err, files) => {
     });
   }
 });
+
+//Tagging and categorization of tests
+After((test) => {
+  var myJSON = JSON.stringify(test, ['tags'])
+
+  if (myJSON.toLowerCase().includes("trivial")) {
+	allure.severity("trivial")
+  } else if (myJSON.toLowerCase().includes("minor")) {
+	allure.severity("minor")
+  } else if (myJSON.toLowerCase().includes("normal")) {
+	allure.severity("normal")
+  } else if (myJSON.toLowerCase().includes("critical")) {
+	allure.severity("critical")
+  } else if (myJSON.toLowerCase().includes("blocker")) {
+	allure.severity("blocker")
+  } else {
+	allure.severity("normal")
+  }
+})
 
 // Add in your custom step files
 Given('the user has browsed to the homepage', () => I.amOnPage ('/'))

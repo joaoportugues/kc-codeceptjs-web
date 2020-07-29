@@ -20,7 +20,8 @@ Feature: Home page carousel options and navigation in Spanish
     When user clicks "Carousel next"
     When user clicks "Carousel next"
     Then user sees "Más momentos felices" with format "h2"
-
+  
+  @minor
   Scenario: check that carousel messages circle correctly with next, back to first screen (Spanish)
     Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2"
     When user clicks "Carousel next"
@@ -39,6 +40,7 @@ Feature: Home page carousel options and navigation in Spanish
     When user clicks "Carousel previous"
     Then user sees "Motivado y feliz" with format "h2"
      
+  @minor
   Scenario: check that carousel messages circle correctly with previous, back to first screen (Spanish)
     Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2"
     When user clicks "Carousel previous"
