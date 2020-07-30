@@ -29,6 +29,9 @@ exports.config = {
     steps: ['./step_definitions/steps.js']
   },
   plugins: {
+	"stepByStepReport": {
+     "enabled": true
+   },
 	autoDelay: {
      enabled: false
    },
