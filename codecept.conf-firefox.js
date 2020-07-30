@@ -7,7 +7,9 @@ exports.config = {
       windowSize: '1920x1080',
 	   capabilities: {
 	     "moz:firefoxOptions": {
-        	"args": ["-headless"],
+        	"args": ["headless", 
+					 "start-maximized"
+				],
       	 }
        }
     },
@@ -31,7 +33,7 @@ exports.config = {
   },
   plugins: {
 	"stepByStepReport": {
-     "enabled": true
+     "enabled": false
    },
 	autoDelay: {
      enabled: false

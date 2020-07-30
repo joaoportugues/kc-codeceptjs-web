@@ -46,10 +46,12 @@ Then('user sees {string}', (element) => main.assertElement(element))
 
 When('user clicks {string}', (element) => main.clickElement(element))
 
-When('I resize window {int} by {int}', (width, height) => main.resizeWindow(width, height));
+When('I resize window {int} by {int}', (width, height) => main.resizeWindow(width, height))
 
-Then('user scrolls to {string}', (element) => main.scrollTo(element));
+Then('user scrolls to {string}', (element) => main.scrollTo(element))
 
-Then('user sees image {int} size with width {int}', (imageNumber, expectedWidth) => main.imageDimensions(imageNumber, expectedWidth));
+Then('user sees image {int} size with width {int}', (imageNumber, expectedWidth) => main.imageDimensions(imageNumber, expectedWidth))
 
 Then('user refreshes page', () => I.refreshPage())
+
+Then('user clicks Privacy Statement and footer is still displayed', ()  => main.jumpingPrivacyStatment())
