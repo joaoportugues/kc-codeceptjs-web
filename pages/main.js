@@ -27,10 +27,11 @@ module.exports = {
 	
 	readText(text, tag) {
 		//find if element is in the page
-		I.see(text, tag)
+		//I.see(text, tag)
 	
 		//used to confirm the actual visibility of the element in the page
-		I.waitForVisible('//' + tag + '[contains(text(),"' + text +'")]')
+		I.waitForElement('//' + tag + '[contains(text(),"' + text +'")]', 10)
+		I.waitForVisible('//' + tag + '[contains(text(),"' + text +'")]', 10)
 	},
 	
 	assertElement(element) {

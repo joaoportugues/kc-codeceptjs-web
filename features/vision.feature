@@ -14,6 +14,7 @@ Feature: Vision section of the page
     Then user sees "Be part of the future and make the difference! Kid-Coins wants..." with format "p"
     Then user sees "company logo small"
      
+  @TKC-4 @firefoxBugOnly
   Scenario: user is sent to Vision and then back home using to top button with correct info and logos
     When user clicks "Vision"
     Then user sees "Vision" button is "active"
@@ -22,6 +23,7 @@ Feature: Vision section of the page
   	Then user sees "Vision" button is "inactive"
   	Then user sees "company logo"
   	
+  @TKC-4 @firefoxBugOnly
   Scenario: user is sent to Vision and then back home using home button with correct info and logos
     When user clicks "Vision"
     Then user sees "Vision" button is "active"

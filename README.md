@@ -56,6 +56,11 @@ or
 ```sh
 npx codeceptjs run --debug
 ```
+Use different configs with -c
+```sh
+npx codeceptjs run -c codecept.config-firefox.js
+```
+
 and to get the testing reports
 ```sh
 allure serve reports

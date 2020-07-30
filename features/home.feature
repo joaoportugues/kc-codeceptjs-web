@@ -85,41 +85,56 @@ Feature: Home page functionalities
     Then user sees "Google Store button"
     When user clicks "Google Store button"
     Then user sees "Google logo"
-      
+  
+  @carouselTests
   Scenario: check that carousel messages circle correctly with next, second screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel next"
     Then user sees "Motivated and happy" with format "h2"
     
+  @carouselTests
   Scenario: check that carousel messages circle correctly with next, third screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel next"
     When user clicks "Carousel next"
     Then user sees "More happy moments" with format "h2"
 
-  @minor
+  @minor @carouselTests
   Scenario: check that carousel messages circle correctly with next, back to first screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel next"
     When user clicks "Carousel next"
     When user clicks "Carousel next"
     Then user sees "More quality time with friends and family" with format "h2"
-    
+  
+  @carouselTests  
   Scenario: check that carousel messages circle correctly with previous, third screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel previous"
     Then user sees "More happy moments" with format "h2"
     
+  @carouselTests  
   Scenario: check that carousel messages circle correctly with previous, second screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     Then user sees "Motivated and happy" with format "h2"
   
-  @minor   
+  @minor @carouselTests
   Scenario: check that carousel messages circle correctly with previous, back to first screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     When user clicks "Carousel previous"
     Then user sees "More quality time with friends and family" with format "h2"
+    
+  @carouselTests 
+  Scenario: check that carousel autoplays
+  	Then user sees "More quality time with friends and family" with format "h2"
+    Then user sees "Motivated and happy" with format "h2"
+    Then user sees "More happy moments" with format "h2"
+   	Then user sees "More quality time with friends and family" with format "h2"
+    
+  
+
+
