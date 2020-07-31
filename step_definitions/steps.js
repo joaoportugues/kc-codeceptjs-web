@@ -22,6 +22,8 @@ const allure = codeceptjs.container.plugins('allure')
 After((test) => {
   var myJSON = JSON.stringify(test, ['tags'])
 
+  allure.environment('Allure report', 'Chrome')
+
   if (myJSON.toLowerCase().includes("trivial")) {
 	allure.severity("trivial")
   } else if (myJSON.toLowerCase().includes("minor")) {
@@ -35,13 +37,8 @@ After((test) => {
   } else {
 	allure.severity("normal")
   }
-
-  if (myJSON.toLowerCase().includes("firefoxBugOnly")) {
-	allure.epic("firefoxBugOnly")
-  } else if (myJSON.toLowerCase().includes("macOnlyBug")) {
-	allure.epic("macOnlyBug")
-  }
 })
+
 
 // Add in your custom step files
 Given('the user has browsed to the homepage', () => I.amOnPage ('/'))
