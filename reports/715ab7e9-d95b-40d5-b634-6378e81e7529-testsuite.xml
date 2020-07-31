@@ -1,0 +1,2085 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596190122716' stop='1596190215917'>
+    <name>Home page functionalities</name>
+    <title>Home page functionalities</title>
+    <test-cases>
+        <test-case start='1596190122717' status='passed' stop='1596190125265'>
+            <name>confirm header options, logos and elements @blocker</name>
+            <title>confirm header options, logos and elements @blocker</title>
+            <labels>
+                <label name='tag' value='@blocker'/>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190124819' status='passed' stop='1596190124865'>
+                    <name>Then user sees "Home" with format "a" </name>
+                    <title>Then user sees "Home" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190124819' status='passed' stop='1596190124865'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190124819' status='passed' stop='1596190124837'>
+                                    <name>I wait for element "//a[contains(text(),"Home")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Home")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190124837' status='passed' stop='1596190124865'>
+                                    <name>I wait for visible "//a[contains(text(),"Home")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Home")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190124865' status='passed' stop='1596190124910'>
+                    <name>Then user sees "Vision" with format "a" </name>
+                    <title>Then user sees "Vision" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190124865' status='passed' stop='1596190124910'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190124865' status='passed' stop='1596190124886'>
+                                    <name>I wait for element "//a[contains(text(),"Vision")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190124886' status='passed' stop='1596190124910'>
+                                    <name>I wait for visible "//a[contains(text(),"Vision")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190124910' status='passed' stop='1596190124950'>
+                    <name>Then user sees "Features" with format "a" </name>
+                    <title>Then user sees "Features" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190124910' status='passed' stop='1596190124950'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190124910' status='passed' stop='1596190124930'>
+                                    <name>I wait for element "//a[contains(text(),"Features")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Features")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190124930' status='passed' stop='1596190124950'>
+                                    <name>I wait for visible "//a[contains(text(),"Features")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Features")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190124950' status='passed' stop='1596190124987'>
+                    <name>Then user sees "News" with format "a" </name>
+                    <title>Then user sees "News" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190124950' status='passed' stop='1596190124987'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190124950' status='passed' stop='1596190124967'>
+                                    <name>I wait for element "//a[contains(text(),"News")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"News")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190124967' status='passed' stop='1596190124987'>
+                                    <name>I wait for visible "//a[contains(text(),"News")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"News")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190124987' status='passed' stop='1596190125052'>
+                    <name>Then user sees "Contact" with format "a" </name>
+                    <title>Then user sees "Contact" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190124987' status='passed' stop='1596190125052'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190124987' status='passed' stop='1596190125004'>
+                                    <name>I wait for element "//a[contains(text(),"Contact")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Contact")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190125004' status='passed' stop='1596190125052'>
+                                    <name>I wait for visible "//a[contains(text(),"Contact")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Contact")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190125052' status='passed' stop='1596190125220'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190125052' status='passed' stop='1596190125220'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190125053' status='passed' stop='1596190125080'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190125080' status='passed' stop='1596190125220'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190125220' status='passed' stop='1596190125265'>
+                    <name>Then user sees "language selector" </name>
+                    <title>Then user sees "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190125220' status='passed' stop='1596190125265'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190125220' status='passed' stop='1596190125265'>
+                                    <name>I see element "//div[@class="language-switch"]"</name>
+                                    <title>I see element "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190125323' status='passed' stop='1596190129392'>
+            <name>change language to German and confirm options, logos and elements @critical</name>
+            <title>change language to German and confirm options, logos and elements @critical</title>
+            <labels>
+                <label name='tag' value='@critical'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190127137' status='passed' stop='1596190128452'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190127137' status='passed' stop='1596190128452'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190127137' status='passed' stop='1596190128451'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128452' status='passed' stop='1596190128525'>
+                    <name>Then user sees "German flag" </name>
+                    <title>Then user sees "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128452' status='passed' stop='1596190128525'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128452' status='passed' stop='1596190128525'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128525' status='passed' stop='1596190128564'>
+                    <name>Then user sees "Spanish flag" </name>
+                    <title>Then user sees "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128525' status='passed' stop='1596190128564'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128525' status='passed' stop='1596190128564'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128564' status='passed' stop='1596190128653'>
+                    <name>When user clicks "German flag" </name>
+                    <title>When user clicks "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128564' status='passed' stop='1596190128653'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128564' status='passed' stop='1596190128653'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128653' status='passed' stop='1596190128896'>
+                    <name>Then user sees "German flag active" </name>
+                    <title>Then user sees "German flag active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128653' status='passed' stop='1596190128896'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128653' status='passed' stop='1596190128896'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-de active"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-de active"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128896' status='passed' stop='1596190128951'>
+                    <name>Then user sees "Zuhause" with format "a" </name>
+                    <title>Then user sees "Zuhause" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128896' status='passed' stop='1596190128951'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128896' status='passed' stop='1596190128919'>
+                                    <name>I wait for element "//a[contains(text(),"Zuhause")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Zuhause")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190128919' status='passed' stop='1596190128951'>
+                                    <name>I wait for visible "//a[contains(text(),"Zuhause")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Zuhause")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190128951' status='passed' stop='1596190129002'>
+                    <name>Then user sees "Vision" with format "a" </name>
+                    <title>Then user sees "Vision" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190128951' status='passed' stop='1596190129002'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190128951' status='passed' stop='1596190128970'>
+                                    <name>I wait for element "//a[contains(text(),"Vision")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190128970' status='passed' stop='1596190129001'>
+                                    <name>I wait for visible "//a[contains(text(),"Vision")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190129002' status='passed' stop='1596190129064'>
+                    <name>Then user sees "Wie funktioniert's" with format "a" </name>
+                    <title>Then user sees "Wie funktioniert's" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190129002' status='passed' stop='1596190129064'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190129002' status='passed' stop='1596190129031'>
+                                    <name>I wait for element "//a[contains(text(),"Wie funktioniert's")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Wie funktioniert's")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190129031' status='passed' stop='1596190129064'>
+                                    <name>I wait for visible "//a[contains(text(),"Wie funktioniert's")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Wie funktioniert's")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190129064' status='passed' stop='1596190129136'>
+                    <name>Then user sees "Nachrichten" with format "a" </name>
+                    <title>Then user sees "Nachrichten" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190129064' status='passed' stop='1596190129136'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190129064' status='passed' stop='1596190129099'>
+                                    <name>I wait for element "//a[contains(text(),"Nachrichten")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Nachrichten")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190129099' status='passed' stop='1596190129136'>
+                                    <name>I wait for visible "//a[contains(text(),"Nachrichten")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Nachrichten")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190129136' status='passed' stop='1596190129209'>
+                    <name>Then user sees "Kontakt" with format "a" </name>
+                    <title>Then user sees "Kontakt" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190129136' status='passed' stop='1596190129209'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190129136' status='passed' stop='1596190129159'>
+                                    <name>I wait for element "//a[contains(text(),"Kontakt")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Kontakt")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190129159' status='passed' stop='1596190129209'>
+                                    <name>I wait for visible "//a[contains(text(),"Kontakt")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Kontakt")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190129209' status='passed' stop='1596190129392'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190129209' status='passed' stop='1596190129392'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190129209' status='passed' stop='1596190129240'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190129241' status='passed' stop='1596190129392'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190129450' status='passed' stop='1596190134498'>
+            <name>change language to Spanish and confirm options, logos and elements @critical</name>
+            <title>change language to Spanish and confirm options, logos and elements @critical</title>
+            <labels>
+                <label name='tag' value='@critical'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190132066' status='passed' stop='1596190133311'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190132066' status='passed' stop='1596190133311'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190132066' status='passed' stop='1596190133311'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190133311' status='passed' stop='1596190133549'>
+                    <name>Then user sees "German flag" </name>
+                    <title>Then user sees "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190133311' status='passed' stop='1596190133549'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190133311' status='passed' stop='1596190133549'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190133549' status='passed' stop='1596190133591'>
+                    <name>Then user sees "Spanish flag" </name>
+                    <title>Then user sees "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190133549' status='passed' stop='1596190133591'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190133549' status='passed' stop='1596190133591'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190133591' status='passed' stop='1596190133727'>
+                    <name>When user clicks "Spanish flag" </name>
+                    <title>When user clicks "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190133591' status='passed' stop='1596190133727'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190133591' status='passed' stop='1596190133727'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190133727' status='passed' stop='1596190134063'>
+                    <name>Then user sees "Spanish flag active" </name>
+                    <title>Then user sees "Spanish flag active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190133727' status='passed' stop='1596190134063'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190133727' status='passed' stop='1596190134063'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-es active"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-es active"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134063' status='passed' stop='1596190134115'>
+                    <name>Then user sees "Hogar" with format "a" </name>
+                    <title>Then user sees "Hogar" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134063' status='passed' stop='1596190134115'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134063' status='passed' stop='1596190134085'>
+                                    <name>I wait for element "//a[contains(text(),"Hogar")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Hogar")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134085' status='passed' stop='1596190134115'>
+                                    <name>I wait for visible "//a[contains(text(),"Hogar")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Hogar")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134115' status='passed' stop='1596190134162'>
+                    <name>Then user sees "Visio" with format "a" </name>
+                    <title>Then user sees "Visio" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134115' status='passed' stop='1596190134162'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134115' status='passed' stop='1596190134137'>
+                                    <name>I wait for element "//a[contains(text(),"Visio")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Visio")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134137' status='passed' stop='1596190134162'>
+                                    <name>I wait for visible "//a[contains(text(),"Visio")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Visio")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134162' status='passed' stop='1596190134211'>
+                    <name>Then user sees "Caracteristicas" with format "a" </name>
+                    <title>Then user sees "Caracteristicas" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134162' status='passed' stop='1596190134211'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134162' status='passed' stop='1596190134180'>
+                                    <name>I wait for element "//a[contains(text(),"Caracteristicas")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Caracteristicas")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134180' status='passed' stop='1596190134211'>
+                                    <name>I wait for visible "//a[contains(text(),"Caracteristicas")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Caracteristicas")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134211' status='passed' stop='1596190134274'>
+                    <name>Then user sees "Noticias" with format "a" </name>
+                    <title>Then user sees "Noticias" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134211' status='passed' stop='1596190134274'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134211' status='passed' stop='1596190134237'>
+                                    <name>I wait for element "//a[contains(text(),"Noticias")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Noticias")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134238' status='passed' stop='1596190134274'>
+                                    <name>I wait for visible "//a[contains(text(),"Noticias")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Noticias")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134274' status='passed' stop='1596190134333'>
+                    <name>Then user sees "Contacto" with format "a" </name>
+                    <title>Then user sees "Contacto" with format "a" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134274' status='passed' stop='1596190134333'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134274' status='passed' stop='1596190134303'>
+                                    <name>I wait for element "//a[contains(text(),"Contacto")]", 10</name>
+                                    <title>I wait for element "//a[contains(text(),"Contacto")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134303' status='passed' stop='1596190134333'>
+                                    <name>I wait for visible "//a[contains(text(),"Contacto")]", 10</name>
+                                    <title>I wait for visible "//a[contains(text(),"Contacto")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190134333' status='passed' stop='1596190134498'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190134333' status='passed' stop='1596190134498'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190134333' status='passed' stop='1596190134374'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190134375' status='passed' stop='1596190134498'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190134552' status='passed' stop='1596190138385'>
+            <name>navigate to Vision and confirm logo changes</name>
+            <title>navigate to Vision and confirm logo changes</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190136516' status='passed' stop='1596190137871'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190136516' status='passed' stop='1596190137871'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190136516' status='passed' stop='1596190137871'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190137871' status='passed' stop='1596190138385'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190137871' status='passed' stop='1596190138385'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190137871' status='passed' stop='1596190138100'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190138100' status='passed' stop='1596190138385'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190138442' status='failed' stop='1596190147732'>
+            <name>check that menu in windowed mode works properly @TKC-2 @trivial</name>
+            <title>check that menu in windowed mode works properly @TKC-2 @trivial</title>
+            <labels>
+                <label name='tag' value='@TKC-2'/>
+                <label name='tag' value='@trivial'/>
+                <label name='severity' value='trivial'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190140951' status='passed' stop='1596190141062'>
+                    <name>When I resize window 768 by 1024 </name>
+                    <title>When I resize window 768 by 1024 </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190140951' status='passed' stop='1596190141062'>
+                            <name>Object: resizeWindow </name>
+                            <title>Object: resizeWindow </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190140951' status='passed' stop='1596190141062'>
+                                    <name>I resize window 768, 1024</name>
+                                    <title>I resize window 768, 1024</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190141062' status='passed' stop='1596190141167'>
+                    <name>Then user sees "triple bar menu" </name>
+                    <title>Then user sees "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190141062' status='passed' stop='1596190141167'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190141062' status='passed' stop='1596190141088'>
+                                    <name>I see element "//button[@class="navbar-toggler"]"</name>
+                                    <title>I see element "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190141088' status='passed' stop='1596190141167'>
+                                    <name>I dont see "Home"</name>
+                                    <title>I dont see "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190141167' status='passed' stop='1596190142283'>
+                    <name>Then user clicks "triple bar menu" </name>
+                    <title>Then user clicks "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190141167' status='passed' stop='1596190142283'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190141167' status='passed' stop='1596190142283'>
+                                    <name>I click "//button[@class="navbar-toggler"]"</name>
+                                    <title>I click "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190142283' status='passed' stop='1596190142390'>
+                    <name>Then user clicks "Vision" </name>
+                    <title>Then user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190142283' status='passed' stop='1596190142390'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190142283' status='passed' stop='1596190142389'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190142390' status='failed' stop='1596190147732'>
+                    <name>Then user sees "triple bar menu" </name>
+                    <title>Then user sees "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190142390' status='failed' stop='1596190147732'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190142390' status='passed' stop='1596190142418'>
+                                    <name>I see element "//button[@class="navbar-toggler"]"</name>
+                                    <title>I see element "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190142418' status='failed' stop='1596190147732'>
+                                    <name>I dont see "Home"</name>
+                                    <title>I dont see "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1a64cca6-c632-4a8f-96f8-49c8e7c9f049-attachment.png' type='image/png' size='1434288'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596190148850' status='failed' stop='1596190158526'>
+            <name>check that menu and language in windowed mode work properly @TKC-3 @minor</name>
+            <title>check that menu and language in windowed mode work properly @TKC-3 @minor</title>
+            <labels>
+                <label name='tag' value='@TKC-3'/>
+                <label name='tag' value='@minor'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190151755' status='passed' stop='1596190151867'>
+                    <name>When I resize window 768 by 1024 </name>
+                    <title>When I resize window 768 by 1024 </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190151755' status='passed' stop='1596190151867'>
+                            <name>Object: resizeWindow </name>
+                            <title>Object: resizeWindow </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190151755' status='passed' stop='1596190151867'>
+                                    <name>I resize window 768, 1024</name>
+                                    <title>I resize window 768, 1024</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190151867' status='passed' stop='1596190152086'>
+                    <name>Then user sees "triple bar menu" </name>
+                    <title>Then user sees "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190151867' status='passed' stop='1596190152086'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190151867' status='passed' stop='1596190151961'>
+                                    <name>I see element "//button[@class="navbar-toggler"]"</name>
+                                    <title>I see element "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190151961' status='passed' stop='1596190152086'>
+                                    <name>I dont see "Home"</name>
+                                    <title>I dont see "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190152086' status='passed' stop='1596190153054'>
+                    <name>When user clicks "triple bar menu" </name>
+                    <title>When user clicks "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190152086' status='passed' stop='1596190153054'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190152086' status='passed' stop='1596190153054'>
+                                    <name>I click "//button[@class="navbar-toggler"]"</name>
+                                    <title>I click "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190153054' status='passed' stop='1596190153150'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190153054' status='passed' stop='1596190153150'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190153054' status='passed' stop='1596190153150'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190153150' status='passed' stop='1596190153339'>
+                    <name>Then user sees "German flag" </name>
+                    <title>Then user sees "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190153150' status='passed' stop='1596190153339'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190153150' status='passed' stop='1596190153339'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190153339' status='passed' stop='1596190153360'>
+                    <name>Then user sees "Spanish flag" </name>
+                    <title>Then user sees "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190153339' status='passed' stop='1596190153360'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190153339' status='passed' stop='1596190153360'>
+                                    <name>I see element "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I see element "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190153360' status='failed' stop='1596190158526'>
+                    <name>Then user sees "triple bar menu" </name>
+                    <title>Then user sees "triple bar menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190153360' status='failed' stop='1596190158526'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190153360' status='passed' stop='1596190153399'>
+                                    <name>I see element "//button[@class="navbar-toggler"]"</name>
+                                    <title>I see element "//button[@class="navbar-toggler"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190153399' status='failed' stop='1596190158526'>
+                                    <name>I dont see "Home"</name>
+                                    <title>I dont see "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='67f74cf5-767d-4d15-a4e9-020f5ead41ed-attachment.png' type='image/png' size='1742451'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596190159695' status='passed' stop='1596190165160'>
+            <name>navigate to Vision and back to top confirm logo changes</name>
+            <title>navigate to Vision and back to top confirm logo changes</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190161975' status='passed' stop='1596190162093'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190161975' status='passed' stop='1596190162093'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190161975' status='passed' stop='1596190162002'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190162002' status='passed' stop='1596190162093'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190162093' status='passed' stop='1596190163253'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190162093' status='passed' stop='1596190163253'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190162093' status='passed' stop='1596190163253'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190163253' status='passed' stop='1596190163533'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190163253' status='passed' stop='1596190163533'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190163253' status='passed' stop='1596190163452'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190163452' status='passed' stop='1596190163533'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190163533' status='passed' stop='1596190163848'>
+                    <name>When user clicks "Back to top" </name>
+                    <title>When user clicks "Back to top" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190163533' status='passed' stop='1596190163848'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190163533' status='passed' stop='1596190163848'>
+                                    <name>I click "//i[@class="far fa-arrow-up"]"</name>
+                                    <title>I click "//i[@class="far fa-arrow-up"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190163848' status='passed' stop='1596190165160'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190163848' status='passed' stop='1596190165160'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190163848' status='passed' stop='1596190164991'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190164991' status='passed' stop='1596190165160'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190165214' status='passed' stop='1596190171593'>
+            <name>confirm Apple Store icon and redirection @blocker</name>
+            <title>confirm Apple Store icon and redirection @blocker</title>
+            <labels>
+                <label name='tag' value='@blocker'/>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190168176' status='passed' stop='1596190168270'>
+                    <name>Then user sees "Apple Store button" </name>
+                    <title>Then user sees "Apple Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190168176' status='passed' stop='1596190168270'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190168176' status='passed' stop='1596190168270'>
+                                    <name>I see element "//img[@src="/assets/images/app-store.svg"]"</name>
+                                    <title>I see element "//img[@src="/assets/images/app-store.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190168270' status='passed' stop='1596190169661'>
+                    <name>When user clicks "Apple Store button" </name>
+                    <title>When user clicks "Apple Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190168270' status='passed' stop='1596190169661'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190168270' status='passed' stop='1596190169661'>
+                                    <name>I click "//img[@src="/assets/images/app-store.svg"]"</name>
+                                    <title>I click "//img[@src="/assets/images/app-store.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190169661' status='passed' stop='1596190171534'>
+                    <name>Then user sees "Apple logo" </name>
+                    <title>Then user sees "Apple logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190169661' status='passed' stop='1596190171534'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190169661' status='passed' stop='1596190169695'>
+                                    <name>I switch to next tab 1</name>
+                                    <title>I switch to next tab 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190169695' status='passed' stop='1596190171534'>
+                                    <name>I see element "//a[@href="https://www.apple.com/de/"]"</name>
+                                    <title>I see element "//a[@href="https://www.apple.com/de/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190171534' status='passed' stop='1596190171562'>
+                    <name>Then user sees "Kid-Coins" with format "h1" </name>
+                    <title>Then user sees "Kid-Coins" with format "h1" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190171534' status='passed' stop='1596190171562'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190171534' status='passed' stop='1596190171547'>
+                                    <name>I wait for element "//h1[contains(text(),"Kid-Coins")]", 10</name>
+                                    <title>I wait for element "//h1[contains(text(),"Kid-Coins")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190171547' status='passed' stop='1596190171562'>
+                                    <name>I wait for visible "//h1[contains(text(),"Kid-Coins")]", 10</name>
+                                    <title>I wait for visible "//h1[contains(text(),"Kid-Coins")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190171562' status='passed' stop='1596190171593'>
+                    <name>Then user sees "The Family App" with format "h2" </name>
+                    <title>Then user sees "The Family App" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190171562' status='passed' stop='1596190171593'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190171562' status='passed' stop='1596190171576'>
+                                    <name>I wait for element "//h2[contains(text(),"The Family App")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"The Family App")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190171576' status='passed' stop='1596190171593'>
+                                    <name>I wait for visible "//h2[contains(text(),"The Family App")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"The Family App")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190171648' status='passed' stop='1596190176720'>
+            <name>confirm Google Store icon and redirection @blocker</name>
+            <title>confirm Google Store icon and redirection @blocker</title>
+            <labels>
+                <label name='tag' value='@blocker'/>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190174247' status='passed' stop='1596190174302'>
+                    <name>Then user sees "Google Store button" </name>
+                    <title>Then user sees "Google Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190174247' status='passed' stop='1596190174302'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190174247' status='passed' stop='1596190174301'>
+                                    <name>I see element "//img[@src="/assets/images/google-play.svg"]"</name>
+                                    <title>I see element "//img[@src="/assets/images/google-play.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190174302' status='passed' stop='1596190175663'>
+                    <name>When user clicks "Google Store button" </name>
+                    <title>When user clicks "Google Store button" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190174302' status='passed' stop='1596190175663'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190174302' status='passed' stop='1596190175663'>
+                                    <name>I click "//img[@src="/assets/images/google-play.svg"]"</name>
+                                    <title>I click "//img[@src="/assets/images/google-play.svg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190175663' status='passed' stop='1596190176720'>
+                    <name>Then user sees "Google logo" </name>
+                    <title>Then user sees "Google logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190175663' status='passed' stop='1596190176720'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190175663' status='passed' stop='1596190175703'>
+                                    <name>I switch to next tab 1</name>
+                                    <title>I switch to next tab 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190175703' status='passed' stop='1596190176719'>
+                                    <name>I see element "//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]"</name>
+                                    <title>I see element "//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190176774' status='passed' stop='1596190180539'>
+            <name>check that carousel messages circle correctly with next, second screen @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, second screen @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190179015' status='passed' stop='1596190179084'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190179015' status='passed' stop='1596190179084'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190179015' status='passed' stop='1596190179051'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190179051' status='passed' stop='1596190179084'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190179084' status='passed' stop='1596190180471'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190179084' status='passed' stop='1596190180471'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190179084' status='passed' stop='1596190180471'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190180471' status='passed' stop='1596190180539'>
+                    <name>Then user sees "Motivated and happy" with format "h2" </name>
+                    <title>Then user sees "Motivated and happy" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190180471' status='passed' stop='1596190180539'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190180471' status='passed' stop='1596190180503'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190180503' status='passed' stop='1596190180539'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190180600' status='passed' stop='1596190185535'>
+            <name>check that carousel messages circle correctly with next, third screen @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, third screen @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190183489' status='passed' stop='1596190183528'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190183489' status='passed' stop='1596190183528'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190183489' status='passed' stop='1596190183506'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190183506' status='passed' stop='1596190183528'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190183528' status='passed' stop='1596190184978'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190183528' status='passed' stop='1596190184978'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190183528' status='passed' stop='1596190184781'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190184782' status='passed' stop='1596190184978'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190184978' status='passed' stop='1596190185535'>
+                    <name>Then user sees "More happy moments" with format "h2" </name>
+                    <title>Then user sees "More happy moments" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190184978' status='passed' stop='1596190185535'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190184978' status='passed' stop='1596190185001'>
+                                    <name>I wait for element "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190185001' status='passed' stop='1596190185535'>
+                                    <name>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190185595' status='passed' stop='1596190189181'>
+            <name>check that carousel messages circle correctly with next, back to first screen @minor @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, back to first screen @minor @carouselTests</title>
+            <labels>
+                <label name='tag' value='@minor'/>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190187670' status='passed' stop='1596190187788'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190187670' status='passed' stop='1596190187788'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190187670' status='passed' stop='1596190187730'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190187730' status='passed' stop='1596190187788'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190187788' status='passed' stop='1596190189145'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190187788' status='passed' stop='1596190189145'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190187788' status='passed' stop='1596190188966'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190188966' status='passed' stop='1596190189044'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190189044' status='passed' stop='1596190189145'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190189145' status='passed' stop='1596190189181'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190189145' status='passed' stop='1596190189181'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190189145' status='passed' stop='1596190189153'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190189153' status='passed' stop='1596190189181'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190189235' status='passed' stop='1596190192655'>
+            <name>check that carousel messages circle correctly with previous, third screen @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, third screen @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190190862' status='passed' stop='1596190190897'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190190862' status='passed' stop='1596190190897'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190190862' status='passed' stop='1596190190879'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190190879' status='passed' stop='1596190190897'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190190897' status='passed' stop='1596190192127'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190190897' status='passed' stop='1596190192127'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190190897' status='passed' stop='1596190192127'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190192127' status='passed' stop='1596190192655'>
+                    <name>Then user sees "More happy moments" with format "h2" </name>
+                    <title>Then user sees "More happy moments" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190192127' status='passed' stop='1596190192655'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190192127' status='passed' stop='1596190192139'>
+                                    <name>I wait for element "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190192139' status='passed' stop='1596190192655'>
+                                    <name>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190192710' status='passed' stop='1596190196246'>
+            <name>check that carousel messages circle correctly with previous, second screen @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, second screen @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190194264' status='passed' stop='1596190194318'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190194264' status='passed' stop='1596190194318'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190194264' status='passed' stop='1596190194289'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190194289' status='passed' stop='1596190194318'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190194318' status='passed' stop='1596190195710'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190194318' status='passed' stop='1596190195710'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190194318' status='passed' stop='1596190195617'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190195617' status='passed' stop='1596190195710'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190195710' status='passed' stop='1596190196246'>
+                    <name>Then user sees "Motivated and happy" with format "h2" </name>
+                    <title>Then user sees "Motivated and happy" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190195710' status='passed' stop='1596190196246'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190195710' status='passed' stop='1596190195725'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190195725' status='passed' stop='1596190196246'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190196301' status='passed' stop='1596190199354'>
+            <name>check that carousel messages circle correctly with previous, back to first screen @minor @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, back to first screen @minor @carouselTests</title>
+            <labels>
+                <label name='tag' value='@minor'/>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190197943' status='passed' stop='1596190197980'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190197943' status='passed' stop='1596190197980'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190197943' status='passed' stop='1596190197961'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190197961' status='passed' stop='1596190197980'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190197980' status='passed' stop='1596190199329'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190197980' status='passed' stop='1596190199329'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190197980' status='passed' stop='1596190199226'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190199226' status='passed' stop='1596190199281'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190199281' status='passed' stop='1596190199328'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190199329' status='passed' stop='1596190199354'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190199329' status='passed' stop='1596190199354'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190199329' status='passed' stop='1596190199338'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190199338' status='passed' stop='1596190199354'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596190199409' status='passed' stop='1596190215848'>
+            <name>check that carousel autoplays @carouselTests</name>
+            <title>check that carousel autoplays @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596190201214' status='passed' stop='1596190201247'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190201214' status='passed' stop='1596190201247'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190201214' status='passed' stop='1596190201230'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190201230' status='passed' stop='1596190201247'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190201247' status='passed' stop='1596190205780'>
+                    <name>Then user sees "Motivated and happy" with format "h2" </name>
+                    <title>Then user sees "Motivated and happy" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190201247' status='passed' stop='1596190205780'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190201247' status='passed' stop='1596190201261'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190201261' status='passed' stop='1596190205780'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivated and happy")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190205780' status='passed' stop='1596190210813'>
+                    <name>Then user sees "More happy moments" with format "h2" </name>
+                    <title>Then user sees "More happy moments" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190205780' status='passed' stop='1596190210813'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190205780' status='passed' stop='1596190205793'>
+                                    <name>I wait for element "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190205793' status='passed' stop='1596190210813'>
+                                    <name>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More happy moments")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596190210813' status='passed' stop='1596190215848'>
+                    <name>Then user sees "More quality time with friends and family" with format "h2" </name>
+                    <title>Then user sees "More quality time with friends and family" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596190210813' status='passed' stop='1596190215848'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596190210813' status='passed' stop='1596190210823'>
+                                    <name>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596190210823' status='passed' stop='1596190215848'>
+                                    <name>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"More quality time with friends and family")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
