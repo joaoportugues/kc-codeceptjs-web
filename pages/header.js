@@ -2,11 +2,11 @@ const { I } = inject()
 const assert = require('assert')
 
 module.exports = {
+	//page fragment
+	rootHeader: "kc-sticky-header",
+	
 	elements: {
 	},
-	
-	// fragments
-	rootHeader: "kc-sticky-header",
 	
 	clickElement(element) {
 		switch (element.toLowerCase()) {	

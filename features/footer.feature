@@ -69,16 +69,30 @@ Feature: Footer section of the page
     Then user sees "company logo"
     
   @blocker
-  Scenario: confirm Apple Store icon and redirection
+  Scenario: confirm Apple Store functionality in footer and redirection
     When user clicks "iOS mobile application"
     Then user sees "Apple logo"
     Then user sees "Kid-Coins" with format "h1"
     Then user sees "The Family App" with format "h2"
    
   @blocker
-  Scenario: confirm Google Store icon and redirection
+  Scenario: confirm Google Store functionality in footer and redirection
     When user clicks "Android mobile application"
     Then user sees "Google logo"
-
+  
+  @TKC-10
+  Scenario: confirm Facebook icon and redirection
+    When user clicks "Facebook"
+    Then user sees "Facebook page"
+  @newTest
+  Scenario: confirm Instagram icon and redirection
+    When user clicks "Instagram"
+    Then user sees "Instagram page"
+    
+  @TKC-11 @macBugOnly
+  Scenario: confirm LinkedIn icon and redirection
+    When user clicks "LinkedIn"
+    Then user sees "LinkedIn page"
+    
 
 

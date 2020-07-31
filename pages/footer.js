@@ -2,7 +2,12 @@ const { I } = inject()
 const assert = require('assert')
 
 module.exports = {
+	rootFooter: 'footer',
+	
 	elements: {
+		facebookLogo: '//i[@class="fab fa-facebook-square"]',
+		instagramLogo: '//i[@class="fab fa-instagram-square"]',
+		linkedInLogo: '//i[@class="fab fa-linkedin"]',
 	},
 	
 	async jumpingPrivacyStatment() {
@@ -22,4 +27,24 @@ module.exports = {
 		
 		assert.notStrictEqual(parsedInitialPagePosition.y, parsedNewPagePosition.y)
 	},
+	
+	async checkFacebookPage() {
+		I.switchToNextTab(1)
+		url = await I.grabCurrentUrl()
+		assert.strictEqual(url, "https://facebook.com")
+	},
+	
+	async checkInstagramPage() {
+		I.switchToNextTab(1)
+		url = await I.grabCurrentUrl()
+		assert.strictEqual(url, "https://www.instagram.com/kid.coins/")
+		I.see("kid.coins", "h2")
+	},
+	
+	async checkLinkedInPage() {
+		I.switchToNextTab(1)
+		url = await I.grabCurrentUrl()
+		assert.strictEqual(url, "https://www.linkedin.com/company/kid-coins-gmbh/?viewAsMember=true")
+		I.see("Kid-Coins GmbH","span")
+	}
 }

@@ -1,5 +1,6 @@
 const { I } = inject()
 const assert = require('assert')
+const footer = require('../pages/footer')
 
 module.exports = {
 	elements: {
@@ -23,7 +24,6 @@ module.exports = {
 		googleStoreButton: '//img[@src="/assets/images/google-play.svg"]',
 		appleLogo: '//a[@href="https://www.apple.com/de/"]',
 		googleLogo: '//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]',
-
 	},
 	
 	readText(text, tag) {
@@ -35,7 +35,7 @@ module.exports = {
 		I.waitForVisible('//' + tag + '[contains(text(),"' + text +'")]', 10)
 	},
 	
-	assertElement(element) {
+	 async assertElement(element) {
 		switch (element.toLowerCase()) {
 			case 'company logo': 
 				I.seeElement(this.elements.logo)
@@ -87,6 +87,25 @@ module.exports = {
 				I.seeElement(this.elements.tripleBarMenu)
 				I.dontSee('Home')
 				break;
+			case 'carousel previous': 
+				I.seeElement(this.elements.carouselPrevious)
+				break;
+			case 'back to top': 
+				I.seeElement(this.elements.backToTop)
+				break;
+			case 'triple bar menu': 
+				I.seeElement(this.elements.tripleBarMenu)
+				I.dontSee('Home')
+				break;
+			case 'facebook page': 
+				await footer.checkFacebookPage()
+				break;
+			case 'instagram page': 
+				await footer.checkInstagramPage()
+				break;
+			case 'linkedin page': 
+				await footer.checkLinkedInPage()
+				break;
 		}
 	},
 	
@@ -124,6 +143,21 @@ module.exports = {
 				break;
 			case 'more': 
 				I.click(this.elements.more)
+				break;
+			case 'facebook': 
+				within(footer.rootFooter, function() {
+      				I.click(footer.elements.facebookLogo);
+    			});
+				break;
+			case 'instagram': 
+				within(footer.rootFooter, function() {
+      				I.click(footer.elements.instagramLogo);
+    			});				
+				break;
+			case 'linkedin': 
+				within(footer.rootFooter, function() {
+      				I.click(footer.elements.linkedInLogo);
+    			});				
 				break;
 			default:
 				I.click(element)
