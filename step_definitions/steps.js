@@ -8,7 +8,7 @@ const directory = 'reports'
 const allure = codeceptjs.container.plugins('allure')
 
 //Cleaning up reports folder before starting tests.
-fs.readdir(directory, (err, files) => {
+/*fs.readdir(directory, (err, files) => {
   if (err) throw err;
 
   for (const file of files) {
@@ -16,7 +16,7 @@ fs.readdir(directory, (err, files) => {
       if (err) throw err;
     })
   }
-})
+})*/
 
 //Tagging and categorization of tests
 After((test) => {
@@ -37,11 +37,10 @@ After((test) => {
   }
 
   if (myJSON.toLowerCase().includes("firefoxBugOnly")) {
-	allure.addLabel("firefoxBugOnly")
+	allure.epic("firefoxBugOnly")
   } else if (myJSON.toLowerCase().includes("macOnlyBug")) {
-	allure.severity("macOnlyBug")
-}
-
+	allure.epic("macOnlyBug")
+  }
 })
 
 // Add in your custom step files
