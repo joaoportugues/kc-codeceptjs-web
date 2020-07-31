@@ -1,6 +1,6 @@
 const { I } = inject()
 const assert = require('assert')
-const footer = require('../pages/footer')
+const footerPage = require('../pages/footer')
 
 module.exports = {
 	elements: {
@@ -98,13 +98,13 @@ module.exports = {
 				I.dontSee('Home')
 				break;
 			case 'facebook page': 
-				await footer.checkFacebookPage()
+				await footerPage.checkFacebookPage()
 				break;
 			case 'instagram page': 
-				await footer.checkInstagramPage()
+				await footerPage.checkInstagramPage()
 				break;
 			case 'linkedin page': 
-				await footer.checkLinkedInPage()
+				await footerPage.checkLinkedInPage()
 				break;
 		}
 	},
@@ -145,18 +145,18 @@ module.exports = {
 				I.click(this.elements.more)
 				break;
 			case 'facebook': 
-				within(footer.rootFooter, function() {
-      				I.click(footer.elements.facebookLogo);
+				within(footerPage.rootFooter, function() {
+      				I.click(footerPage.elements.facebookLogo);
     			});
 				break;
 			case 'instagram': 
-				within(footer.rootFooter, function() {
-      				I.click(footer.elements.instagramLogo);
+				within(footerPage.rootFooter, function() {
+      				I.click(footerPage.elements.instagramLogo);
     			});				
 				break;
 			case 'linkedin': 
-				within(footer.rootFooter, function() {
-      				I.click(footer.elements.linkedInLogo);
+				within(footerPage.rootFooter, function() {
+      				I.click(footerPage.elements.linkedInLogo);
     			});				
 				break;
 			default:

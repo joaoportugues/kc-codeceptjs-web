@@ -50,19 +50,19 @@ Feature: Footer section of the page
     When user clicks "Terms & Conditions"
     Then user clicks Privacy Statement and footer is still displayed
     
-  @TKC-7
+  @TKC-7 @minor
   Scenario: user navigates to footer section and opens Privacy Statement and then presses to top button
     When user clicks "Privacy Statement"
     When user clicks "back to top"
     Then user sees "company logo"
     
-  @TKC-8
+  @TKC-8 @minor
   Scenario: user navigates to footer section and opens Terms & Conditions and then Home to get back to the main page
     When user clicks "Privacy Statement"
     When user clicks "Home"
     Then user sees "company logo"
     
-  @TKC-9
+  @TKC-9 @minor
   Scenario: user navigates to footer section and opens Privacy Statement and then Home to get back to the main page
     When user clicks "Terms & Conditions"
     When user clicks "Home"
@@ -80,16 +80,16 @@ Feature: Footer section of the page
     When user clicks "Android mobile application"
     Then user sees "Google logo"
   
-  @TKC-10
+  @TKC-10 @minor
   Scenario: confirm Facebook icon and redirection
     When user clicks "Facebook"
     Then user sees "Facebook page"
-  @newTest
+
   Scenario: confirm Instagram icon and redirection
     When user clicks "Instagram"
     Then user sees "Instagram page"
     
-  @TKC-11 @macBugOnly
+  @TKC-11 @macBugOnly @minor
   Scenario: confirm LinkedIn icon and redirection
     When user clicks "LinkedIn"
     Then user sees "LinkedIn page"

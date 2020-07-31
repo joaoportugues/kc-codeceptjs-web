@@ -31,20 +31,20 @@ module.exports = {
 	async checkFacebookPage() {
 		I.switchToNextTab(1)
 		url = await I.grabCurrentUrl()
-		assert.strictEqual(url, "https://facebook.com")
+		assert.strictEqual(url, "https://facebook.com", "url value does not match")
 	},
 	
 	async checkInstagramPage() {
 		I.switchToNextTab(1)
 		url = await I.grabCurrentUrl()
-		assert.strictEqual(url, "https://www.instagram.com/kid.coins/")
+		assert.strictEqual(url, "https://www.instagram.com/kid.coins/", "url value does not match")
 		I.see("kid.coins", "h2")
 	},
 	
 	async checkLinkedInPage() {
 		I.switchToNextTab(1)
 		url = await I.grabCurrentUrl()
-		assert.strictEqual(url, "https://www.linkedin.com/company/kid-coins-gmbh/?viewAsMember=true")
+		assert.strictEqual(url, "https://www.linkedin.com/company/kid-coins-gmbh/?viewAsMember=true", "url value does not match")
 		I.see("Kid-Coins GmbH","span")
 	}
 }

@@ -35,6 +35,13 @@ After((test) => {
   } else {
 	allure.severity("normal")
   }
+
+  if (myJSON.toLowerCase().includes("firefoxBugOnly")) {
+	allure.addLabel("firefoxBugOnly")
+  } else if (myJSON.toLowerCase().includes("macOnlyBug")) {
+	allure.severity("macOnlyBug")
+}
+
 })
 
 // Add in your custom step files
