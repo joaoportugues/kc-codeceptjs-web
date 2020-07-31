@@ -4,9 +4,11 @@ exports.config = {
     WebDriver: {
       url: 'https://kid-coins-development.web.app/',
       browser: 'chrome',
-      desiredCapabilities: {
-	    chromeOptions: {
-		  args: ["--headless", "--window-size=1200,1000", /*--kiosk*/]
+      capabilities: {
+	    "goog:chromeOptions": {
+		  args: ["--headless", 
+				 "--window-size=1200,1000", 
+			     /*--kiosk*/]
 	    }
       }
     },

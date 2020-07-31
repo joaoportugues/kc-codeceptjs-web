@@ -55,6 +55,30 @@ Feature: Footer section of the page
     When user clicks "Privacy Statement"
     When user clicks "back to top"
     Then user sees "company logo"
+    
+  @TKC-8
+  Scenario: user navigates to footer section and opens Terms & Conditions and then Home to get back to the main page
+    When user clicks "Privacy Statement"
+    When user clicks "Home"
+    Then user sees "company logo"
+    
+  @TKC-9
+  Scenario: user navigates to footer section and opens Privacy Statement and then Home to get back to the main page
+    When user clicks "Terms & Conditions"
+    When user clicks "Home"
+    Then user sees "company logo"
+    
+  @blocker
+  Scenario: confirm Apple Store icon and redirection
+    When user clicks "iOS mobile application"
+    Then user sees "Apple logo"
+    Then user sees "Kid-Coins" with format "h1"
+    Then user sees "The Family App" with format "h2"
+   
+  @blocker
+  Scenario: confirm Google Store icon and redirection
+    When user clicks "Android mobile application"
+    Then user sees "Google logo"
 
 
 

@@ -107,7 +107,7 @@ Feature: Home page functionalities
     When user clicks "Carousel next"
     Then user sees "More quality time with friends and family" with format "h2"
   
-  @carouselTests  
+  @carouselTests
   Scenario: check that carousel messages circle correctly with previous, third screen
     Then user sees "More quality time with friends and family" with format "h2"
     When user clicks "Carousel previous"

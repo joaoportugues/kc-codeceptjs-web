@@ -4,7 +4,12 @@ exports.config = {
     WebDriver: {
       url: 'https://kid-coins-development.web.app/',
       browser: 'safari',
-      windowSize: '1920x1080',
+	  windowSize: "maximize",
+      	capabilities: {
+	    	"safari:safariOptions": {
+		  		args: ["--headless"]
+	    }
+      }
     },
   /*"ResembleHelper" : {
        "require": "codeceptjs-resemblehelper",
@@ -26,7 +31,7 @@ exports.config = {
   },
   plugins: {
 	"stepByStepReport": {
-     "enabled": true
+     "enabled": false
    },
 	autoDelay: {
      enabled: false

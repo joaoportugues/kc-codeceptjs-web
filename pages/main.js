@@ -90,7 +90,7 @@ module.exports = {
 		}
 	},
 	
-	async clickElement(element) {
+	clickElement(element) {
 		switch (element.toLowerCase()) {
 			case 'company logo': 
 				I.click(this.elements.logo)
