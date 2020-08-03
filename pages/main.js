@@ -115,6 +115,9 @@ module.exports = {
 			case 'no form errors': 
 				I.dontSeeElement(contacts.elements.error)
 				break;
+			case 'no success message': 
+				I.dontSeeElement(contacts.elements.successMessage)
+				break;
 			default:
 				I.see(element)
 				break

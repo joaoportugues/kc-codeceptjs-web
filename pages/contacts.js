@@ -18,11 +18,18 @@ module.exports = {
 		I.seeInField(this.elements.messageField, message)
 	},
 	
-	acceptGdpr() {
-		I.checkOption(this.elements.agreeGdpr)
+	acceptGdpr(gdpr) {
+		if (gdpr.toLowerCase()== 'accept gdpr') {
+			I.checkOption(this.elements.agreeGdpr)
+		}
 	},
 	
 	sendForm() {
 		I.click(this.elements.send)
 	},
+	
+	async sendButtonStateDisabled() {
+		buttonState = await I.grabAttributeFrom(this.elements.send, 'disabled')
+		assert.notDeepEqual(buttonState, 'true')
+	}
 }

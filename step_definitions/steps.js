@@ -66,8 +66,10 @@ Then('user refreshes page', () => I.refreshPage())
 
 Then('user clicks Privacy Statement and footer is still displayed', ()  => footer.jumpingPrivacyStatment())
 
-When('user sends form with email {string} and message {string}', (email, message) => {
+When('user sends form with email {string} and message {string} {string}', (email, message, gdpr) => {
 	contacts.fillInForm(email, message)
-	contacts.acceptGdpr()
+	contacts.acceptGdpr(gdpr)
 	contacts.sendForm()
 });
+
+Then('user sees send button is disabled', () => contacts.sendButtonStateDisabled())
