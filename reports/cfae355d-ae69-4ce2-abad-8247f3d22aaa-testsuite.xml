@@ -1,0 +1,2571 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596451100973' stop='1596451211163'>
+    <name>Contact section of the page</name>
+    <title>Contact section of the page</title>
+    <test-cases>
+        <test-case start='1596451102264' status='passed' stop='1596451108171'>
+            <name>user is sent to Contact section with correct information and logos</name>
+            <title>user is sent to Contact section with correct information and logos</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451105523' status='passed' stop='1596451106730'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451105523' status='passed' stop='1596451106730'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451105523' status='passed' stop='1596451106730'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451106730' status='passed' stop='1596451107894'>
+                    <name>Then user sees "Contact" button is "active" </name>
+                    <title>Then user sees "Contact" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451106730' status='passed' stop='1596451107894'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451106730' status='passed' stop='1596451107894'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451107894' status='passed' stop='1596451107921'>
+                    <name>Then user sees "Home" button is "inactive" </name>
+                    <title>Then user sees "Home" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451107894' status='passed' stop='1596451107921'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451107894' status='passed' stop='1596451107921'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451107922' status='passed' stop='1596451107970'>
+                    <name>Then user sees "Contact" with format "p" </name>
+                    <title>Then user sees "Contact" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451107922' status='passed' stop='1596451107970'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451107922' status='passed' stop='1596451107943'>
+                                    <name>I wait for element "//p[contains(text(),"Contact")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Contact")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451107943' status='passed' stop='1596451107970'>
+                                    <name>I wait for visible "//p[contains(text(),"Contact")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Contact")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451107970' status='passed' stop='1596451108010'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451107970' status='passed' stop='1596451108010'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451107970' status='passed' stop='1596451107986'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451107986' status='passed' stop='1596451108010'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451108010' status='passed' stop='1596451108171'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451108010' status='passed' stop='1596451108171'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451108010' status='passed' stop='1596451108036'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451108036' status='passed' stop='1596451108171'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451108229' status='passed' stop='1596451114397'>
+            <name>user is sent to Contact and then back home using to top button with correct info and logos</name>
+            <title>user is sent to Contact and then back home using to top button with correct info and logos</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451110616' status='passed' stop='1596451111838'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451110616' status='passed' stop='1596451111838'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451110616' status='passed' stop='1596451111838'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451111838' status='passed' stop='1596451112999'>
+                    <name>Then user sees "Contact" button is "active" </name>
+                    <title>Then user sees "Contact" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451111838' status='passed' stop='1596451112999'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451111838' status='passed' stop='1596451112999'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451112999' status='passed' stop='1596451113052'>
+                    <name>When user clicks "Back to top" </name>
+                    <title>When user clicks "Back to top" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451112999' status='passed' stop='1596451113052'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451112999' status='passed' stop='1596451113052'>
+                                    <name>I click "//i[@class="far fa-arrow-up"]"</name>
+                                    <title>I click "//i[@class="far fa-arrow-up"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451113052' status='passed' stop='1596451114189'>
+                    <name>Then user sees "Home" button is "active" </name>
+                    <title>Then user sees "Home" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451113052' status='passed' stop='1596451114189'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451113052' status='passed' stop='1596451114189'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451114189' status='passed' stop='1596451114236'>
+                    <name>Then user sees "Contact" button is "inactive" </name>
+                    <title>Then user sees "Contact" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451114189' status='passed' stop='1596451114236'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451114189' status='passed' stop='1596451114236'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Contact")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Contact")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451114236' status='passed' stop='1596451114397'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451114236' status='passed' stop='1596451114397'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451114236' status='passed' stop='1596451114266'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451114266' status='passed' stop='1596451114397'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451114455' status='passed' stop='1596451120713'>
+            <name>user is sent to Contact and then back home using home button with correct info and logos</name>
+            <title>user is sent to Contact and then back home using home button with correct info and logos</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451116941' status='passed' stop='1596451118175'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451116941' status='passed' stop='1596451118175'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451116941' status='passed' stop='1596451118175'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451118175' status='passed' stop='1596451119303'>
+                    <name>Then user sees "Contact" button is "active" </name>
+                    <title>Then user sees "Contact" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451118175' status='passed' stop='1596451119303'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451118175' status='passed' stop='1596451119303'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Contact")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451119303' status='passed' stop='1596451119369'>
+                    <name>When user clicks "Home" </name>
+                    <title>When user clicks "Home" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451119303' status='passed' stop='1596451119369'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451119303' status='passed' stop='1596451119369'>
+                                    <name>I click "Home"</name>
+                                    <title>I click "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451119369' status='passed' stop='1596451120507'>
+                    <name>Then user sees "Home" button is "active" </name>
+                    <title>Then user sees "Home" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451119369' status='passed' stop='1596451120507'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451119369' status='passed' stop='1596451120507'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451120507' status='passed' stop='1596451120539'>
+                    <name>Then user sees "Contact" button is "inactive" </name>
+                    <title>Then user sees "Contact" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451120507' status='passed' stop='1596451120539'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451120507' status='passed' stop='1596451120539'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Contact")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Contact")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451120539' status='passed' stop='1596451120713'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451120539' status='passed' stop='1596451120713'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451120539' status='passed' stop='1596451120569'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451120569' status='passed' stop='1596451120713'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451120768' status='passed' stop='1596451129672'>
+            <name>user is sent to Contact section with correct information and logos (German)</name>
+            <title>user is sent to Contact section with correct information and logos (German)</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451126471' status='passed' stop='1596451127720'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451126471' status='passed' stop='1596451127720'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451126471' status='passed' stop='1596451127720'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451127720' status='passed' stop='1596451127844'>
+                    <name>When user clicks "German flag" </name>
+                    <title>When user clicks "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451127720' status='passed' stop='1596451127844'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451127720' status='passed' stop='1596451127844'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451127844' status='passed' stop='1596451128248'>
+                    <name>When user clicks "Kontakt" </name>
+                    <title>When user clicks "Kontakt" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451127844' status='passed' stop='1596451128248'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451127844' status='passed' stop='1596451128248'>
+                                    <name>I click "Kontakt"</name>
+                                    <title>I click "Kontakt"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451128248' status='passed' stop='1596451129399'>
+                    <name>Then user sees "Kontakt" button is "active" </name>
+                    <title>Then user sees "Kontakt" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451128248' status='passed' stop='1596451129399'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451128248' status='passed' stop='1596451129399'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Kontakt")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Kontakt")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451129399' status='passed' stop='1596451129430'>
+                    <name>Then user sees "Zuhause" button is "inactive" </name>
+                    <title>Then user sees "Zuhause" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451129399' status='passed' stop='1596451129430'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451129399' status='passed' stop='1596451129429'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Zuhause")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Zuhause")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451129430' status='passed' stop='1596451129486'>
+                    <name>Then user sees "Kontakt" with format "p" </name>
+                    <title>Then user sees "Kontakt" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451129430' status='passed' stop='1596451129486'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451129430' status='passed' stop='1596451129452'>
+                                    <name>I wait for element "//p[contains(text(),"Kontakt")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Kontakt")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451129452' status='passed' stop='1596451129486'>
+                                    <name>I wait for visible "//p[contains(text(),"Kontakt")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Kontakt")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451129486' status='passed' stop='1596451129528'>
+                    <name>Then user sees "Kontaktformular" with format "p" </name>
+                    <title>Then user sees "Kontaktformular" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451129486' status='passed' stop='1596451129528'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451129486' status='passed' stop='1596451129502'>
+                                    <name>I wait for element "//p[contains(text(),"Kontaktformular")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Kontaktformular")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451129503' status='passed' stop='1596451129528'>
+                                    <name>I wait for visible "//p[contains(text(),"Kontaktformular")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Kontaktformular")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451129528' status='passed' stop='1596451129672'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451129528' status='passed' stop='1596451129672'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451129528' status='passed' stop='1596451129559'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451129559' status='passed' stop='1596451129672'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451129727' status='passed' stop='1596451135203'>
+            <name>user is sent to Contact section with correct information and logos (Spanish)</name>
+            <title>user is sent to Contact section with correct information and logos (Spanish)</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451132046' status='passed' stop='1596451133294'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451132046' status='passed' stop='1596451133294'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451132046' status='passed' stop='1596451133294'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451133294' status='passed' stop='1596451133389'>
+                    <name>When user clicks "Spanish flag" </name>
+                    <title>When user clicks "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451133294' status='passed' stop='1596451133389'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451133294' status='passed' stop='1596451133389'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451133389' status='passed' stop='1596451133824'>
+                    <name>When user clicks "Contacto" </name>
+                    <title>When user clicks "Contacto" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451133389' status='passed' stop='1596451133824'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451133389' status='passed' stop='1596451133824'>
+                                    <name>I click "Contacto"</name>
+                                    <title>I click "Contacto"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451133824' status='passed' stop='1596451134969'>
+                    <name>Then user sees "Contacto" button is "active" </name>
+                    <title>Then user sees "Contacto" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451133824' status='passed' stop='1596451134969'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451133824' status='passed' stop='1596451134968'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Contacto")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Contacto")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451134969' status='passed' stop='1596451134991'>
+                    <name>Then user sees "Hogar" button is "inactive" </name>
+                    <title>Then user sees "Hogar" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451134969' status='passed' stop='1596451134991'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451134969' status='passed' stop='1596451134991'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Hogar")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Hogar")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451134991' status='passed' stop='1596451135024'>
+                    <name>Then user sees "Contacto" with format "p" </name>
+                    <title>Then user sees "Contacto" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451134991' status='passed' stop='1596451135024'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451134991' status='passed' stop='1596451135006'>
+                                    <name>I wait for element "//p[contains(text(),"Contacto")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Contacto")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451135006' status='passed' stop='1596451135024'>
+                                    <name>I wait for visible "//p[contains(text(),"Contacto")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Contacto")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451135024' status='passed' stop='1596451135055'>
+                    <name>Then user sees "Formulario de comentarios" with format "p" </name>
+                    <title>Then user sees "Formulario de comentarios" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451135024' status='passed' stop='1596451135055'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451135024' status='passed' stop='1596451135038'>
+                                    <name>I wait for element "//p[contains(text(),"Formulario de comentarios")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Formulario de comentarios")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451135038' status='passed' stop='1596451135055'>
+                                    <name>I wait for visible "//p[contains(text(),"Formulario de comentarios")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Formulario de comentarios")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451135055' status='passed' stop='1596451135203'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451135055' status='passed' stop='1596451135203'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451135055' status='passed' stop='1596451135078'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451135078' status='passed' stop='1596451135203'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451135258' status='passed' stop='1596451141018'>
+            <name>user is able to send feedback form</name>
+            <title>user is able to send feedback form</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451137587' status='passed' stop='1596451138841'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451137587' status='passed' stop='1596451138841'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451137587' status='passed' stop='1596451138841'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451138841' status='passed' stop='1596451139906'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451138841' status='passed' stop='1596451139906'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451138841' status='passed' stop='1596451138883'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451138883' status='passed' stop='1596451139906'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451139906' status='passed' stop='1596451140804'>
+                    <name>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451139906' status='passed' stop='1596451140626'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451139906' status='passed' stop='1596451140235'>
+                                    <name>I fill field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451140235' status='passed' stop='1596451140293'>
+                                    <name>I see in field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451140293' status='passed' stop='1596451140588'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451140588' status='passed' stop='1596451140626'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451140626' status='passed' stop='1596451140713'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451140626' status='passed' stop='1596451140713'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451140713' status='passed' stop='1596451140804'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451140713' status='passed' stop='1596451140804'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451140804' status='passed' stop='1596451140819'>
+                    <name>Then user sees "no form errors" </name>
+                    <title>Then user sees "no form errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451140804' status='passed' stop='1596451140819'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451140804' status='passed' stop='1596451140819'>
+                                    <name>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</name>
+                                    <title>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451140819' status='passed' stop='1596451141018'>
+                    <name>Then user sees "Success message" </name>
+                    <title>Then user sees "Success message" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451140819' status='passed' stop='1596451141018'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451140819' status='passed' stop='1596451141018'>
+                                    <name>I see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</name>
+                                    <title>I see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451141079' status='failed' stop='1596451150579'>
+            <name>error handling in the contact from email error @TKC-12 @minor</name>
+            <title>error handling in the contact from email error @TKC-12 @minor</title>
+            <labels>
+                <label name='tag' value='@TKC-12'/>
+                <label name='tag' value='@minor'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451143344' status='passed' stop='1596451144580'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451143344' status='passed' stop='1596451144580'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451143344' status='passed' stop='1596451144580'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451144580' status='passed' stop='1596451145622'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451144580' status='passed' stop='1596451145622'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451144580' status='passed' stop='1596451144597'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451144597' status='passed' stop='1596451145622'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451145622' status='passed' stop='1596451145708'>
+                    <name>When user clicks "email field" </name>
+                    <title>When user clicks "email field" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451145622' status='passed' stop='1596451145708'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451145622' status='passed' stop='1596451145708'>
+                                    <name>I click "//input[@type="email"]"</name>
+                                    <title>I click "//input[@type="email"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451145708' status='passed' stop='1596451145779'>
+                    <name>When user clicks "message field" </name>
+                    <title>When user clicks "message field" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451145708' status='passed' stop='1596451145779'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451145708' status='passed' stop='1596451145779'>
+                                    <name>I click "//textarea[@formcontrolname="text"]"</name>
+                                    <title>I click "//textarea[@formcontrolname="text"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451145779' status='failed' stop='1596451150579'>
+                    <name>Then user sees "no form errors" </name>
+                    <title>Then user sees "no form errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451145779' status='failed' stop='1596451150579'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451145779' status='failed' stop='1596451150579'>
+                                    <name>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</name>
+                                    <title>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='4c1065ba-0bf5-4a4f-8c27-1fae92244f41-attachment.png' type='image/png' size='254458'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596451151200' status='passed' stop='1596451156682'>
+            <name>check wrong email formats and proper error messages {"email":"jtime @ gmail.com","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime @ gmail.com","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451153574' status='passed' stop='1596451154810'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451153574' status='passed' stop='1596451154810'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451153574' status='passed' stop='1596451154810'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451154810' status='passed' stop='1596451155854'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451154810' status='passed' stop='1596451155854'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451154810' status='passed' stop='1596451154831'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451154831' status='passed' stop='1596451155854'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451155854' status='passed' stop='1596451156557'>
+                    <name>When user sends form with email "jtime @ gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime @ gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451155854' status='passed' stop='1596451156411'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451155854' status='passed' stop='1596451156116'>
+                                    <name>I fill field "//input[@type="email"]", "jtime @ gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime @ gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451156116' status='passed' stop='1596451156160'>
+                                    <name>I see in field "//input[@type="email"]", "jtime @ gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime @ gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451156160' status='passed' stop='1596451156378'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451156378' status='passed' stop='1596451156411'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451156411' status='passed' stop='1596451156492'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451156411' status='passed' stop='1596451156492'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451156492' status='passed' stop='1596451156557'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451156492' status='passed' stop='1596451156557'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451156557' status='passed' stop='1596451156682'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451156557' status='passed' stop='1596451156682'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451156557' status='passed' stop='1596451156682'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451156736' status='passed' stop='1596451162053'>
+            <name>check wrong email formats and proper error messages {"email":"jtime@....","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime@....","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451158935' status='passed' stop='1596451160195'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451158935' status='passed' stop='1596451160195'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451158935' status='passed' stop='1596451160195'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451160195' status='passed' stop='1596451161247'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451160195' status='passed' stop='1596451161247'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451160195' status='passed' stop='1596451160227'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451160227' status='passed' stop='1596451161247'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451161247' status='passed' stop='1596451161916'>
+                    <name>When user sends form with email "jtime@...." and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime@...." and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451161247' status='passed' stop='1596451161763'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451161247' status='passed' stop='1596451161436'>
+                                    <name>I fill field "//input[@type="email"]", "jtime@...."</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime@...."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451161436' status='passed' stop='1596451161479'>
+                                    <name>I see in field "//input[@type="email"]", "jtime@...."</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime@...."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451161479' status='passed' stop='1596451161726'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451161726' status='passed' stop='1596451161763'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451161763' status='passed' stop='1596451161844'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451161763' status='passed' stop='1596451161844'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451161844' status='passed' stop='1596451161916'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451161844' status='passed' stop='1596451161916'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451161916' status='passed' stop='1596451162053'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451161916' status='passed' stop='1596451162053'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451161916' status='passed' stop='1596451162053'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451162111' status='passed' stop='1596451167589'>
+            <name>check wrong email formats and proper error messages {"email":"jtime@gmail com","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime@gmail com","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451164349' status='passed' stop='1596451165622'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451164349' status='passed' stop='1596451165622'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451164349' status='passed' stop='1596451165622'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451165622' status='passed' stop='1596451166660'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451165622' status='passed' stop='1596451166660'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451165622' status='passed' stop='1596451165641'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451165641' status='passed' stop='1596451166660'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451166660' status='passed' stop='1596451167419'>
+                    <name>When user sends form with email "jtime@gmail com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime@gmail com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451166660' status='passed' stop='1596451167226'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451166660' status='passed' stop='1596451166856'>
+                                    <name>I fill field "//input[@type="email"]", "jtime@gmail com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime@gmail com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451166856' status='passed' stop='1596451166911'>
+                                    <name>I see in field "//input[@type="email"]", "jtime@gmail com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime@gmail com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451166911' status='passed' stop='1596451167187'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451167187' status='passed' stop='1596451167226'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451167226' status='passed' stop='1596451167332'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451167226' status='passed' stop='1596451167332'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451167332' status='passed' stop='1596451167419'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451167332' status='passed' stop='1596451167419'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451167419' status='passed' stop='1596451167589'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451167419' status='passed' stop='1596451167589'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451167419' status='passed' stop='1596451167588'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451167647' status='passed' stop='1596451173241'>
+            <name>check wrong email formats and proper error messages {"email":"jtime 123@gmail.com","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime 123@gmail.com","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451170125' status='passed' stop='1596451171348'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451170125' status='passed' stop='1596451171348'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451170125' status='passed' stop='1596451171348'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451171348' status='passed' stop='1596451172393'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451171348' status='passed' stop='1596451172393'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451171348' status='passed' stop='1596451171367'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451171368' status='passed' stop='1596451172393'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451172393' status='passed' stop='1596451173124'>
+                    <name>When user sends form with email "jtime 123@gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime 123@gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451172393' status='passed' stop='1596451172983'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451172393' status='passed' stop='1596451172680'>
+                                    <name>I fill field "//input[@type="email"]", "jtime 123@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime 123@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451172680' status='passed' stop='1596451172726'>
+                                    <name>I see in field "//input[@type="email"]", "jtime 123@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime 123@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451172726' status='passed' stop='1596451172947'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451172947' status='passed' stop='1596451172983'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451172983' status='passed' stop='1596451173060'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451172983' status='passed' stop='1596451173060'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451173060' status='passed' stop='1596451173124'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451173060' status='passed' stop='1596451173124'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451173124' status='passed' stop='1596451173241'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451173124' status='passed' stop='1596451173241'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451173124' status='passed' stop='1596451173241'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451173296' status='passed' stop='1596451178672'>
+            <name>check wrong email formats and proper error messages {"email":"@gmail.com","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"@gmail.com","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451175639' status='passed' stop='1596451176888'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451175639' status='passed' stop='1596451176888'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451175639' status='passed' stop='1596451176888'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451176888' status='passed' stop='1596451177924'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451176888' status='passed' stop='1596451177924'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451176888' status='passed' stop='1596451176906'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451176906' status='passed' stop='1596451177924'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451177924' status='passed' stop='1596451178516'>
+                    <name>When user sends form with email "@gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "@gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451177924' status='passed' stop='1596451178353'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451177924' status='passed' stop='1596451178088'>
+                                    <name>I fill field "//input[@type="email"]", "@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451178088' status='passed' stop='1596451178130'>
+                                    <name>I see in field "//input[@type="email"]", "@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451178130' status='passed' stop='1596451178324'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451178324' status='passed' stop='1596451178353'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451178353' status='passed' stop='1596451178441'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451178353' status='passed' stop='1596451178441'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451178441' status='passed' stop='1596451178516'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451178441' status='passed' stop='1596451178516'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451178516' status='passed' stop='1596451178672'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451178516' status='passed' stop='1596451178672'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451178516' status='passed' stop='1596451178672'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451178734' status='failed' stop='1596451189334'>
+            <name>check wrong email formats and proper error messages {"email":"jtime002@gmail","result":"Email is invalid."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime002@gmail","result":"Email is invalid."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451180922' status='passed' stop='1596451182168'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451180922' status='passed' stop='1596451182168'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451180922' status='passed' stop='1596451182168'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451182168' status='passed' stop='1596451183214'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451182168' status='passed' stop='1596451183214'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451182168' status='passed' stop='1596451182192'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451182192' status='passed' stop='1596451183214'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451183214' status='passed' stop='1596451184011'>
+                    <name>When user sends form with email "jtime002@gmail" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime002@gmail" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451183214' status='passed' stop='1596451183838'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451183214' status='passed' stop='1596451183430'>
+                                    <name>I fill field "//input[@type="email"]", "jtime002@gmail"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime002@gmail"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451183430' status='passed' stop='1596451183486'>
+                                    <name>I see in field "//input[@type="email"]", "jtime002@gmail"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime002@gmail"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451183486' status='passed' stop='1596451183784'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451183785' status='passed' stop='1596451183838'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451183838' status='passed' stop='1596451183941'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451183838' status='passed' stop='1596451183941'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451183941' status='passed' stop='1596451184011'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451183941' status='passed' stop='1596451184011'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451184011' status='failed' stop='1596451189334'>
+                    <name>Then user sees "Email is invalid." </name>
+                    <title>Then user sees "Email is invalid." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451184011' status='failed' stop='1596451189334'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451184011' status='failed' stop='1596451189334'>
+                                    <name>I see "Email is invalid."</name>
+                                    <title>I see "Email is invalid."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3a0ba6a0-87c8-4f14-a6c2-5d5f522827f9-attachment.png' type='image/png' size='258634'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596451189916' status='passed' stop='1596451195496'>
+            <name>check wrong email formats and proper error messages {"email":"jtime002@gmail.com","result":"Your message has been sent."} @TKC-13 @normal</name>
+            <title>check wrong email formats and proper error messages {"email":"jtime002@gmail.com","result":"Your message has been sent."} @TKC-13 @normal</title>
+            <labels>
+                <label name='tag' value='@TKC-13'/>
+                <label name='tag' value='@normal'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451192183' status='passed' stop='1596451193430'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451192183' status='passed' stop='1596451193430'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451192183' status='passed' stop='1596451193430'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451193430' status='passed' stop='1596451194473'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451193430' status='passed' stop='1596451194473'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451193430' status='passed' stop='1596451193453'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451193453' status='passed' stop='1596451194473'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451194473' status='passed' stop='1596451195078'>
+                    <name>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451194473' status='passed' stop='1596451194928'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451194473' status='passed' stop='1596451194691'>
+                                    <name>I fill field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451194691' status='passed' stop='1596451194731'>
+                                    <name>I see in field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451194731' status='passed' stop='1596451194895'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451194896' status='passed' stop='1596451194928'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451194928' status='passed' stop='1596451195007'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451194928' status='passed' stop='1596451195007'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451195007' status='passed' stop='1596451195078'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451195007' status='passed' stop='1596451195078'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451195078' status='passed' stop='1596451195496'>
+                    <name>Then user sees "Your message has been sent." </name>
+                    <title>Then user sees "Your message has been sent." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451195078' status='passed' stop='1596451195496'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451195078' status='passed' stop='1596451195496'>
+                                    <name>I see "Your message has been sent."</name>
+                                    <title>I see "Your message has been sent."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451195577' status='passed' stop='1596451200729'>
+            <name>user cannot send form without filling in email</name>
+            <title>user cannot send form without filling in email</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451197689' status='passed' stop='1596451198957'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451197689' status='passed' stop='1596451198957'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451197689' status='passed' stop='1596451198957'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451198957' status='passed' stop='1596451199995'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451198957' status='passed' stop='1596451199995'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451198957' status='passed' stop='1596451198977'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451198977' status='passed' stop='1596451199995'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451199995' status='passed' stop='1596451200682'>
+                    <name>When user sends form with email "" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451199995' status='passed' stop='1596451200493'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451199995' status='passed' stop='1596451200080'>
+                                    <name>I fill field "//input[@type="email"]", ""</name>
+                                    <title>I fill field "//input[@type="email"]", ""</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451200080' status='passed' stop='1596451200140'>
+                                    <name>I see in field "//input[@type="email"]", ""</name>
+                                    <title>I see in field "//input[@type="email"]", ""</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451200140' status='passed' stop='1596451200450'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451200450' status='passed' stop='1596451200493'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451200493' status='passed' stop='1596451200601'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451200493' status='passed' stop='1596451200601'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451200601' status='passed' stop='1596451200682'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451200601' status='passed' stop='1596451200682'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451200682' status='passed' stop='1596451200700'>
+                    <name>Then user sees "no success message" </name>
+                    <title>Then user sees "no success message" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451200682' status='passed' stop='1596451200700'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451200682' status='passed' stop='1596451200700'>
+                                    <name>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</name>
+                                    <title>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451200700' status='passed' stop='1596451200729'>
+                    <name>Then user sees send button is disabled </name>
+                    <title>Then user sees send button is disabled </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451200700' status='passed' stop='1596451200729'>
+                            <name>Object: sendButtonStateDisabled </name>
+                            <title>Object: sendButtonStateDisabled </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451200700' status='passed' stop='1596451200728'>
+                                    <name>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</name>
+                                    <title>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451200785' status='passed' stop='1596451205882'>
+            <name>user cannot send form without filling in message</name>
+            <title>user cannot send form without filling in message</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451202901' status='passed' stop='1596451204123'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451202901' status='passed' stop='1596451204123'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451202901' status='passed' stop='1596451204123'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451204123' status='passed' stop='1596451205176'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451204123' status='passed' stop='1596451205176'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451204123' status='passed' stop='1596451204152'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451204152' status='passed' stop='1596451205176'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451205176' status='passed' stop='1596451205845'>
+                    <name>When user sends form with email "jtime002@gmail.com" and message "" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime002@gmail.com" and message "" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451205176' status='passed' stop='1596451205696'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451205176' status='passed' stop='1596451205482'>
+                                    <name>I fill field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451205482' status='passed' stop='1596451205560'>
+                                    <name>I see in field "//input[@type="email"]", "jtime002@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451205560' status='passed' stop='1596451205663'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", ""</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", ""</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451205663' status='passed' stop='1596451205696'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", ""</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", ""</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451205696' status='passed' stop='1596451205782'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451205696' status='passed' stop='1596451205782'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451205782' status='passed' stop='1596451205845'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451205782' status='passed' stop='1596451205845'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451205845' status='passed' stop='1596451205859'>
+                    <name>Then user sees "no success message" </name>
+                    <title>Then user sees "no success message" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451205845' status='passed' stop='1596451205859'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451205845' status='passed' stop='1596451205859'>
+                                    <name>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</name>
+                                    <title>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451205859' status='passed' stop='1596451205882'>
+                    <name>Then user sees send button is disabled </name>
+                    <title>Then user sees send button is disabled </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451205859' status='passed' stop='1596451205882'>
+                            <name>Object: sendButtonStateDisabled </name>
+                            <title>Object: sendButtonStateDisabled </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451205859' status='passed' stop='1596451205882'>
+                                    <name>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</name>
+                                    <title>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451205936' status='passed' stop='1596451211107'>
+            <name>user cannot send form without accepting gdpr</name>
+            <title>user cannot send form without accepting gdpr</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451208078' status='passed' stop='1596451209345'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451208078' status='passed' stop='1596451209345'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451208078' status='passed' stop='1596451209344'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451209345' status='passed' stop='1596451210393'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451209345' status='passed' stop='1596451210393'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451209345' status='passed' stop='1596451209362'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451209362' status='passed' stop='1596451210393'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451210393' status='passed' stop='1596451211072'>
+                    <name>When user sends form with email "jtime002+1@gmail.com" and message "This is a test message" "dont accept gdpr" </name>
+                    <title>When user sends form with email "jtime002+1@gmail.com" and message "This is a test message" "dont accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451210393' status='passed' stop='1596451211010'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451210393' status='passed' stop='1596451210713'>
+                                    <name>I fill field "//input[@type="email"]", "jtime002+1@gmail.com"</name>
+                                    <title>I fill field "//input[@type="email"]", "jtime002+1@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451210713' status='passed' stop='1596451210756'>
+                                    <name>I see in field "//input[@type="email"]", "jtime002+1@gmail.com"</name>
+                                    <title>I see in field "//input[@type="email"]", "jtime002+1@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451210756' status='passed' stop='1596451210979'>
+                                    <name>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I fill field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451210979' status='passed' stop='1596451211010'>
+                                    <name>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</name>
+                                    <title>I see in field "//textarea[@formcontrolname="text"]", "This is a test message"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596451211010' status='passed' stop='1596451211072'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451211010' status='passed' stop='1596451211072'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451211072' status='passed' stop='1596451211086'>
+                    <name>Then user sees "no success message" </name>
+                    <title>Then user sees "no success message" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451211072' status='passed' stop='1596451211086'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451211072' status='passed' stop='1596451211086'>
+                                    <name>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</name>
+                                    <title>I dont see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451211086' status='passed' stop='1596451211107'>
+                    <name>Then user sees send button is disabled </name>
+                    <title>Then user sees send button is disabled </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451211086' status='passed' stop='1596451211107'>
+                            <name>Object: sendButtonStateDisabled </name>
+                            <title>Object: sendButtonStateDisabled </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451211086' status='passed' stop='1596451211107'>
+                                    <name>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</name>
+                                    <title>I grab attribute from "//button[contains(text(),"Send")]", "disabled"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

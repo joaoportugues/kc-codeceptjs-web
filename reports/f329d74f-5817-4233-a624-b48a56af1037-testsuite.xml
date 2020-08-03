@@ -1,0 +1,1020 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596451552742' stop='1596451602121'>
+    <name>Vision section of the page</name>
+    <title>Vision section of the page</title>
+    <test-cases>
+        <test-case start='1596451552743' status='passed' stop='1596451557672'>
+            <name>user is sent to Vision section with correct information and logos</name>
+            <title>user is sent to Vision section with correct information and logos</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451554975' status='passed' stop='1596451556255'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451554975' status='passed' stop='1596451556255'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451554975' status='passed' stop='1596451556255'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451556255' status='passed' stop='1596451557389'>
+                    <name>Then user sees "Vision" button is "active" </name>
+                    <title>Then user sees "Vision" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451556255' status='passed' stop='1596451557389'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451556255' status='passed' stop='1596451557389'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451557389' status='passed' stop='1596451557421'>
+                    <name>Then user sees "Home" button is "inactive" </name>
+                    <title>Then user sees "Home" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451557389' status='passed' stop='1596451557421'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451557389' status='passed' stop='1596451557421'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451557421' status='passed' stop='1596451557459'>
+                    <name>Then user sees "Our vision" with format "p" </name>
+                    <title>Then user sees "Our vision" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451557421' status='passed' stop='1596451557459'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451557421' status='passed' stop='1596451557437'>
+                                    <name>I wait for element "//p[contains(text(),"Our vision")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Our vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451557437' status='passed' stop='1596451557459'>
+                                    <name>I wait for visible "//p[contains(text(),"Our vision")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Our vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451557459' status='passed' stop='1596451557521'>
+                    <name>Then user sees "Be part of the future and make the difference! Kid-Coins wants..." with format "p" </name>
+                    <title>Then user sees "Be part of the future and make the difference! Kid-Coins wants..." with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451557459' status='passed' stop='1596451557521'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451557459' status='passed' stop='1596451557481'>
+                                    <name>I wait for element "//p[contains(text(),"Be part of the future and make the difference! Kid-Coins wants...")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Be part of the future and make the difference! Kid-Coins wants...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451557481' status='passed' stop='1596451557521'>
+                                    <name>I wait for visible "//p[contains(text(),"Be part of the future and make the difference! Kid-Coins wants...")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Be part of the future and make the difference! Kid-Coins wants...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451557521' status='passed' stop='1596451557672'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451557521' status='passed' stop='1596451557672'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451557521' status='passed' stop='1596451557550'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451557550' status='passed' stop='1596451557672'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451557727' status='passed' stop='1596451563268'>
+            <name>user is sent to Vision and then back home using to top button with correct info and logos @TKC-4 @firefoxBugOnly</name>
+            <title>user is sent to Vision and then back home using to top button with correct info and logos @TKC-4 @firefoxBugOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-4'/>
+                <label name='tag' value='@firefoxBugOnly'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451559848' status='passed' stop='1596451561112'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451559848' status='passed' stop='1596451561112'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451559848' status='passed' stop='1596451561112'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451561112' status='passed' stop='1596451562238'>
+                    <name>Then user sees "Vision" button is "active" </name>
+                    <title>Then user sees "Vision" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451561112' status='passed' stop='1596451562238'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451561112' status='passed' stop='1596451562238'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451562238' status='passed' stop='1596451562382'>
+                    <name>When user clicks "Back to top" </name>
+                    <title>When user clicks "Back to top" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451562238' status='passed' stop='1596451562382'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451562238' status='passed' stop='1596451562382'>
+                                    <name>I click "//i[@class="far fa-arrow-up"]"</name>
+                                    <title>I click "//i[@class="far fa-arrow-up"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451562382' status='passed' stop='1596451562602'>
+                    <name>Then user sees "Home" button is "active" </name>
+                    <title>Then user sees "Home" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451562382' status='passed' stop='1596451562602'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451562382' status='passed' stop='1596451562602'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451562602' status='passed' stop='1596451562628'>
+                    <name>Then user sees "Vision" button is "inactive" </name>
+                    <title>Then user sees "Vision" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451562602' status='passed' stop='1596451562628'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451562602' status='passed' stop='1596451562628'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451562628' status='passed' stop='1596451563268'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451562628' status='passed' stop='1596451563268'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451562628' status='passed' stop='1596451563173'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451563173' status='passed' stop='1596451563268'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451563325' status='passed' stop='1596451568928'>
+            <name>user is sent to Vision and then back home using home button with correct info and logos @TKC-4 @firefoxBugOnly</name>
+            <title>user is sent to Vision and then back home using home button with correct info and logos @TKC-4 @firefoxBugOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-4'/>
+                <label name='tag' value='@firefoxBugOnly'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451565588' status='passed' stop='1596451566835'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451565588' status='passed' stop='1596451566835'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451565589' status='passed' stop='1596451566835'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451566835' status='passed' stop='1596451567989'>
+                    <name>Then user sees "Vision" button is "active" </name>
+                    <title>Then user sees "Vision" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451566835' status='passed' stop='1596451567989'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451566835' status='passed' stop='1596451567989'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451567989' status='passed' stop='1596451568050'>
+                    <name>When user clicks "Home" </name>
+                    <title>When user clicks "Home" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451567989' status='passed' stop='1596451568050'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451567989' status='passed' stop='1596451568050'>
+                                    <name>I click "Home"</name>
+                                    <title>I click "Home"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451568050' status='passed' stop='1596451568566'>
+                    <name>Then user sees "Home" button is "active" </name>
+                    <title>Then user sees "Home" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451568050' status='passed' stop='1596451568566'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451568050' status='passed' stop='1596451568566'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Home")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451568566' status='passed' stop='1596451568596'>
+                    <name>Then user sees "Vision" button is "inactive" </name>
+                    <title>Then user sees "Vision" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451568566' status='passed' stop='1596451568596'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451568566' status='passed' stop='1596451568596'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451568596' status='passed' stop='1596451568928'>
+                    <name>Then user sees "company logo" </name>
+                    <title>Then user sees "company logo" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451568596' status='passed' stop='1596451568928'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451568596' status='passed' stop='1596451568803'>
+                                    <name>I see element "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451568803' status='passed' stop='1596451568928'>
+                                    <name>I dont see "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451568983' status='passed' stop='1596451573917'>
+            <name>user is sent to Vision section with correct information and logos (German)</name>
+            <title>user is sent to Vision section with correct information and logos (German)</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451571000' status='passed' stop='1596451572251'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451571000' status='passed' stop='1596451572251'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451571000' status='passed' stop='1596451572251'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451572251' status='passed' stop='1596451572381'>
+                    <name>When user clicks "German flag" </name>
+                    <title>When user clicks "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451572251' status='passed' stop='1596451572381'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451572251' status='passed' stop='1596451572381'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451572381' status='passed' stop='1596451572661'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451572381' status='passed' stop='1596451572661'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451572381' status='passed' stop='1596451572661'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451572661' status='passed' stop='1596451573174'>
+                    <name>Then user sees "Vision" button is "active" </name>
+                    <title>Then user sees "Vision" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451572661' status='passed' stop='1596451573174'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451572661' status='passed' stop='1596451573174'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451573174' status='passed' stop='1596451573199'>
+                    <name>Then user sees "Zuhause" button is "inactive" </name>
+                    <title>Then user sees "Zuhause" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451573174' status='passed' stop='1596451573199'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451573174' status='passed' stop='1596451573199'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Zuhause")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Zuhause")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451573199' status='passed' stop='1596451573236'>
+                    <name>Then user sees "Unsere Vision" with format "p" </name>
+                    <title>Then user sees "Unsere Vision" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451573199' status='passed' stop='1596451573236'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451573199' status='passed' stop='1596451573218'>
+                                    <name>I wait for element "//p[contains(text(),"Unsere Vision")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Unsere Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451573218' status='passed' stop='1596451573236'>
+                                    <name>I wait for visible "//p[contains(text(),"Unsere Vision")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Unsere Vision")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451573236' status='passed' stop='1596451573777'>
+                    <name>Then user sees "Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte..." with format "p" </name>
+                    <title>Then user sees "Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte..." with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451573236' status='passed' stop='1596451573777'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451573236' status='passed' stop='1596451573250'>
+                                    <name>I wait for element "//p[contains(text(),"Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte...")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451573250' status='passed' stop='1596451573777'>
+                                    <name>I wait for visible "//p[contains(text(),"Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte...")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451573777' status='passed' stop='1596451573917'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451573777' status='passed' stop='1596451573917'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451573777' status='passed' stop='1596451573808'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451573808' status='passed' stop='1596451573917'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451573976' status='failed' stop='1596451582339'>
+            <name>user is sent to Vision section and then after changing language the section is displayed correctly (German) @TKC-4 @trivial</name>
+            <title>user is sent to Vision section and then after changing language the section is displayed correctly (German) @TKC-4 @trivial</title>
+            <labels>
+                <label name='tag' value='@TKC-4'/>
+                <label name='tag' value='@trivial'/>
+                <label name='severity' value='trivial'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451576067' status='passed' stop='1596451577308'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451576067' status='passed' stop='1596451577308'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451576067' status='passed' stop='1596451577308'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451577308' status='passed' stop='1596451577442'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451577308' status='passed' stop='1596451577442'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451577308' status='passed' stop='1596451577442'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451577442' status='passed' stop='1596451577569'>
+                    <name>When user clicks "German flag" </name>
+                    <title>When user clicks "German flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451577442' status='passed' stop='1596451577569'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451577442' status='passed' stop='1596451577569'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-de"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-de"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451577569' status='failed' stop='1596451582339'>
+                    <name>Then user sees "Vision" button is "active" </name>
+                    <title>Then user sees "Vision" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451577569' status='failed' stop='1596451582339'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451577569' status='failed' stop='1596451582339'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Vision")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='be0d24dd-aa61-40df-8664-609e31192f14-attachment.png' type='image/png' size='4976687'/>
+            </attachments>
+            <failure>
+                <message>Element "//a[contains(@class, "active") and contains(text(),"Vision")]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "//a[contains(@class, "active") and contains(text(),"Vision")]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:2717:11)
+                    at WebDriver.seeElement (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:1223:5)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596451585247' status='passed' stop='1596451590409'>
+            <name>user is sent to Vision section with correct information and logos (Spanish)</name>
+            <title>user is sent to Vision section with correct information and logos (Spanish)</title>
+            <labels>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451587387' status='passed' stop='1596451588645'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451587387' status='passed' stop='1596451588645'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451587387' status='passed' stop='1596451588645'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451588645' status='passed' stop='1596451588735'>
+                    <name>When user clicks "Spanish flag" </name>
+                    <title>When user clicks "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451588645' status='passed' stop='1596451588735'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451588645' status='passed' stop='1596451588735'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451588735' status='passed' stop='1596451589154'>
+                    <name>When user clicks "Visio" </name>
+                    <title>When user clicks "Visio" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451588735' status='passed' stop='1596451589154'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451588735' status='passed' stop='1596451589154'>
+                                    <name>I click "Visio"</name>
+                                    <title>I click "Visio"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451589154' status='passed' stop='1596451589675'>
+                    <name>Then user sees "Visio" button is "active" </name>
+                    <title>Then user sees "Visio" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451589154' status='passed' stop='1596451589675'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451589154' status='passed' stop='1596451589675'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Visio")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Visio")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451589675' status='passed' stop='1596451589706'>
+                    <name>Then user sees "Hogar" button is "inactive" </name>
+                    <title>Then user sees "Hogar" button is "inactive" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451589675' status='passed' stop='1596451589706'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451589675' status='passed' stop='1596451589706'>
+                                    <name>I see element "//a[contains(@class, "") and contains(text(),"Hogar")]"</name>
+                                    <title>I see element "//a[contains(@class, "") and contains(text(),"Hogar")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451589706' status='passed' stop='1596451589743'>
+                    <name>Then user sees "Nuestra visión" with format "p" </name>
+                    <title>Then user sees "Nuestra visión" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451589706' status='passed' stop='1596451589743'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451589706' status='passed' stop='1596451589725'>
+                                    <name>I wait for element "//p[contains(text(),"Nuestra visión")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Nuestra visión")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451589725' status='passed' stop='1596451589743'>
+                                    <name>I wait for visible "//p[contains(text(),"Nuestra visión")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Nuestra visión")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451589743' status='passed' stop='1596451590288'>
+                    <name>Then user sees "¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere..." with format "p" </name>
+                    <title>Then user sees "¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere..." with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451589743' status='passed' stop='1596451590288'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451589743' status='passed' stop='1596451589759'>
+                                    <name>I wait for element "//p[contains(text(),"¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere...")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451589759' status='passed' stop='1596451590288'>
+                                    <name>I wait for visible "//p[contains(text(),"¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere...")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"¡Sé parte del futuro y marca la diferencia! Kid-Coins quiere...")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451590288' status='passed' stop='1596451590408'>
+                    <name>Then user sees "company logo small" </name>
+                    <title>Then user sees "company logo small" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451590288' status='passed' stop='1596451590408'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451590288' status='passed' stop='1596451590313'>
+                                    <name>I see element "//*[@src="/assets/images/logo-alt.png"]"</name>
+                                    <title>I see element "//*[@src="/assets/images/logo-alt.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596451590313' status='passed' stop='1596451590408'>
+                                    <name>I dont see "//*[@src="/assets/images/logo.png"]"</name>
+                                    <title>I dont see "//*[@src="/assets/images/logo.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596451590470' status='failed' stop='1596451598764'>
+            <name>user is sent to Vision section and then after changing language the section is displayed correctly (Spanish) @TKC-4 @trivial</name>
+            <title>user is sent to Vision section and then after changing language the section is displayed correctly (Spanish) @TKC-4 @trivial</title>
+            <labels>
+                <label name='tag' value='@TKC-4'/>
+                <label name='tag' value='@trivial'/>
+                <label name='severity' value='trivial'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596451592540' status='passed' stop='1596451593809'>
+                    <name>When user clicks "Vision" </name>
+                    <title>When user clicks "Vision" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451592540' status='passed' stop='1596451593809'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451592541' status='passed' stop='1596451593809'>
+                                    <name>I click "Vision"</name>
+                                    <title>I click "Vision"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451593809' status='passed' stop='1596451593920'>
+                    <name>When user clicks "language selector" </name>
+                    <title>When user clicks "language selector" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451593809' status='passed' stop='1596451593920'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451593809' status='passed' stop='1596451593920'>
+                                    <name>I click "//div[@class="language-switch"]"</name>
+                                    <title>I click "//div[@class="language-switch"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451593920' status='passed' stop='1596451594009'>
+                    <name>When user clicks "Spanish flag" </name>
+                    <title>When user clicks "Spanish flag" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451593920' status='passed' stop='1596451594009'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451593920' status='passed' stop='1596451594009'>
+                                    <name>I click "//span[@class="flag-icon flag-icon-es"]"</name>
+                                    <title>I click "//span[@class="flag-icon flag-icon-es"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596451594009' status='failed' stop='1596451598763'>
+                    <name>Then user sees "Visio" button is "active" </name>
+                    <title>Then user sees "Visio" button is "active" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596451594009' status='failed' stop='1596451598763'>
+                            <name>Object: assertTabState </name>
+                            <title>Object: assertTabState </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596451594009' status='failed' stop='1596451598763'>
+                                    <name>I see element "//a[contains(@class, "active") and contains(text(),"Visio")]"</name>
+                                    <title>I see element "//a[contains(@class, "active") and contains(text(),"Visio")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3e8577d3-33ce-4099-b079-f19238c2a44a-attachment.png' type='image/png' size='4500530'/>
+            </attachments>
+            <failure>
+                <message>Element "//a[contains(@class, "active") and contains(text(),"Visio")]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "//a[contains(@class, "active") and contains(text(),"Visio")]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:2717:11)
+                    at WebDriver.seeElement (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:1223:5)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
