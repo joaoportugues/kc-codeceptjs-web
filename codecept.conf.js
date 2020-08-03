@@ -8,7 +8,7 @@ exports.config = {
       capabilities: {
 	    "goog:chromeOptions": {
 		  args: [
-			"--headless", 
+			//"--headless", 
 				 "--window-size=1400,1000", 
 			     /*--kiosk*/
 			]

@@ -53,7 +53,7 @@ Feature: Contact section of the page
   Scenario: user is able to send feedback form
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"
-    When user sends form with email "<email>" and message "This is a test message" "accept gdpr"    
+    When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr"    
     Then user sees "no form errors"
     Then user sees "Success message"
     
@@ -65,7 +65,7 @@ Feature: Contact section of the page
     When user clicks "message field"
     Then user sees "no form errors"
     
-   @TKC-13 @normal 
+  @TKC-13 @normal 
   Scenario Outline: check wrong email formats and proper error messages
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"
@@ -75,15 +75,20 @@ Feature: Contact section of the page
 	  Examples:
       |email			 		   |result       				   |
       |jtime @ gmail.com    	   |Email is invalid.              |
-      |					    	   |Email is invalid.              |
       |jtime@....  				   |Email is invalid.     		   |
       |jtime@gmail com 			   |Email is invalid.              |
       |jtime 123@gmail.com 		   |Email is invalid.              |
       |@gmail.com 				   |Email is invalid.              |
       |jtime002@gmail			   |Email is invalid.              |
       |jtime002@gmail.com          |Your message has been sent.    |
-    
-  @newTest    
+       
+  Scenario: user cannot send form without filling in email
+    When user clicks "Contact"
+    Then user sees "Feedback form" with format "p"
+    When user sends form with email "" and message "This is a test message" "accept gdpr"
+    Then user sees "no success message"
+    Then user sees send button is disabled
+  
   Scenario: user cannot send form without filling in message
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"
@@ -91,7 +96,6 @@ Feature: Contact section of the page
     Then user sees "no success message"
     Then user sees send button is disabled
    
-  @newTest  
   Scenario: user cannot send form without accepting gdpr
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"
