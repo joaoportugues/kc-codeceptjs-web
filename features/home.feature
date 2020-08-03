@@ -5,6 +5,10 @@ Feature: Home page functionalities
   
   Background: navigate to home page
     Given the user has browsed to the homepage
+    
+  Scenario: confirm page title
+    Then user sees page title "Kid-Coins | Die App für Familien - Home"
+    
   @blocker
   Scenario: confirm header options, logos and elements
     Then user sees "Home" with format "a"

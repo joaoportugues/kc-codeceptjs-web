@@ -2,10 +2,12 @@ const { I } = inject()
 const main = require('../pages/main')
 const vision = require('../pages/vision')
 const footer = require('../pages/footer')
+const contacts = require('../pages/contacts')
 const fs = require('fs')
 const path = require('path')
 const directory = 'reports'
 const allure = codeceptjs.container.plugins('allure')
+let config = require('codeceptjs').config.get()
 
 //Cleaning up reports folder before starting tests.
 /*fs.readdir(directory, (err, files) => {
@@ -22,7 +24,9 @@ const allure = codeceptjs.container.plugins('allure')
 After((test) => {
   var myJSON = JSON.stringify(test, ['tags'])
 
-  allure.environment('Allure report', 'Chrome')
+  //get config information
+  //console.log(config.helpers.WebDriver.browser) 
+
 
   if (myJSON.toLowerCase().includes("trivial")) {
 	allure.severity("trivial")
@@ -39,9 +43,10 @@ After((test) => {
   }
 })
 
-
 // Add in your custom step files
 Given('the user has browsed to the homepage', () => I.amOnPage ('/'))
+
+Then('user sees page title {string}', (expectedTitle) => main.assertTabTitle(expectedTitle))
 
 Then('user sees {string} with format {string}', (text, tag) => main.readText (text, tag))
 
@@ -60,3 +65,9 @@ Then('user sees image {int} size with width {int}', (imageNumber, expectedWidth)
 Then('user refreshes page', () => I.refreshPage())
 
 Then('user clicks Privacy Statement and footer is still displayed', ()  => footer.jumpingPrivacyStatment())
+
+When('user sends form with email {string} and message {string}', (email, message) => {
+	contacts.fillInForm(email, message)
+	contacts.acceptGdpr()
+	contacts.sendForm()
+});

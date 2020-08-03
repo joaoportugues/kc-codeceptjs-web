@@ -1,6 +1,7 @@
 const { I } = inject()
 const assert = require('assert')
 const footerPage = require('../pages/footer')
+const contacts = require('../pages/contacts')
 
 module.exports = {
 	elements: {
@@ -25,6 +26,8 @@ module.exports = {
 		appleLogo: '//a[@href="https://www.apple.com/de/"]',
 		googleLogo: '//img[@src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"]',
 	},
+	
+
 	
 	readText(text, tag) {
 		//find if element is in the page
@@ -106,6 +109,15 @@ module.exports = {
 			case 'linkedin page': 
 				await footerPage.checkLinkedInPage()
 				break;
+			case 'success message': 
+				I.seeElement(contacts.elements.successMessage)
+				break;
+			case 'no form errors': 
+				I.dontSeeElement(contacts.elements.error)
+				break;
+			default:
+				I.see(element)
+				break
 		}
 	},
 	
@@ -159,6 +171,12 @@ module.exports = {
       				I.click(footerPage.elements.linkedInLogo);
     			});				
 				break;
+			case 'email field': 
+				I.click(contacts.elements.emailField)
+				break;
+			case 'message field': 
+				I.click(contacts.elements.messageField)
+				break;
 			default:
 				I.click(element)
 				break
@@ -191,4 +209,10 @@ module.exports = {
 				break
 		}
 	},
+	
+	async assertTabTitle(expectedTitle) {
+		const currentTitle = await I.grabTitle();
+		assert.equal(expectedTitle, currentTitle);
+	},
+
 }

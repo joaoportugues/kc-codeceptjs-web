@@ -49,4 +49,38 @@ Feature: Contact section of the page
     Then user sees "Contacto" with format "p"
     Then user sees "Formulario de comentarios" with format "p"
     Then user sees "company logo small"
+  
+  Scenario: user is able to send feedback form
+    When user clicks "Contact"
+    Then user sees "Feedback form" with format "p"
+    When user sends form with email "jtime002+1@gmail.com" and message "This is a test message"
+    Then user sees "no form errors"
+    Then user sees "Success message"
+    
+  @TKC-12 @minor 
+  Scenario: error handling in the contact from email error
+    When user clicks "Contact"
+    Then user sees "Feedback form" with format "p"
+    When user clicks "email field"
+    When user clicks "message field"
+    Then user sees "no form errors"
+    
+   @TKC-13 @normal @newTest 
+   Scenario Outline: check wrong email formats and proper error messages
+    When user clicks "Contact"
+    Then user sees "Feedback form" with format "p"
+    When user sends form with email "<email>" and message "This is a test message"
+    Then user sees "<result>"
+   
+	  Examples:
+      |email			 		   |result       				   |
+      |jtime @ gmail.com    	   |Email is invalid.              |
+      |jtime@....  				   |Email is invalid.     		   |
+      |jtime@gmail com 			   |Email is invalid.              |
+      |jtime 123@gmail.com 		   |Email is invalid.              |
+      |@gmail.com 				   |Email is invalid.              |
+      |jtime002@gmail			   |Email is invalid.              |
+      |jtime002@gmail.com          |Your message has been sent.    |
+ 
+    
 
