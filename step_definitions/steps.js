@@ -16,7 +16,7 @@ var today = new Date();
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
-reportsDirectory = directory + '/' + date
+reportsDirectory = directory + '/' + config.helpers.WebDriver.browser + "-" + date
 
 if (!fs.existsSync(reportsDirectory)) {
     fs.mkdirSync(reportsDirectory);
@@ -46,7 +46,7 @@ After((test) => {
   var myJSON = JSON.stringify(test, ['tags'])
 
   //get config information
-  //console.log(config.helpers.WebDriver.browser) 
+//console.log(config.helpers.WebDriver.browser) 
 
   if (myJSON.toLowerCase().includes("trivial")) {
 	allure.severity("trivial")
