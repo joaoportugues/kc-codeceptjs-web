@@ -63,7 +63,7 @@ npx codeceptjs run -c codecept.config-firefox.js
 
 and to get the testing reports
 ```sh
-allure serve reports
+allure serve reports/2020-8-4 (or any other folder available)
 ```
 
 You can use tags as well:

@@ -1,3 +1,17 @@
+const fs = require('fs')
+const path = require('path')
+const directory = 'reports'
+
+var today = new Date();  
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+reportsDirectory = './'+ directory + '/firefox-' + date
+
+if (!fs.existsSync(reportsDirectory)) {
+    fs.mkdirSync(reportsDirectory);
+}
+
 exports.config = {
   output: './output',
   helpers: {
@@ -40,7 +54,7 @@ exports.config = {
    },
 	allure: {
       enabled: true,
-      outputDir: "./reports"
+      outputDir: reportsDirectory
     },
     screenshotOnFail: {
       enabled: true

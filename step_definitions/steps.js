@@ -9,6 +9,19 @@ const directory = 'reports'
 const allure = codeceptjs.container.plugins('allure')
 let config = require('codeceptjs').config.get()
 
+
+//reporting folder structure
+
+var today = new Date();  
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+reportsDirectory = directory + '/' + date
+
+if (!fs.existsSync(reportsDirectory)) {
+    fs.mkdirSync(reportsDirectory);
+}
+
 //Cleaning up reports folder before starting tests.
 /*fs.readdir(directory, (err, files) => {
   if (err) throw err;
@@ -81,4 +94,4 @@ When('user sends form with email {string} and message {string} {string}', (email
 
 Then('user sees send button is disabled', () => contacts.sendButtonStateDisabled())
 
-When('moves cursor to {string}', (element) => main.moveCursor(element))
+When('user moves cursor to {string}', (element) => main.moveCursor(element))

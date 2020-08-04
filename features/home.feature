@@ -154,9 +154,9 @@ Feature: Home page functionalities
     Then user sees "Kid-Coins en la televisión"
 	Then user sees "no error chars"
     
-  @TKC-15 @critical @firefoxBugOnly @runThis
+  @TKC-15 @critical @firefoxBugOnly
   Scenario: confirm header options, logos and elements
  	When I resize window 768 by 1024
-  	When moves cursor "language selector"
+  	When user moves cursor to "language selector"
   	Then user sees "German flag"
 
