@@ -65,7 +65,7 @@ Feature: Contact section of the page
     When user clicks "message field"
     Then user sees "no form errors"
     
-  @TKC-13 @normal 
+  @TKC-13
   Scenario Outline: check wrong email formats and proper error messages
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"
@@ -80,7 +80,25 @@ Feature: Contact section of the page
       |jtime 123@gmail.com 		   |Email is invalid.              |
       |@gmail.com 				   |Email is invalid.              |
       |jtime002@gmail			   |Email is invalid.              |
+      |jtime002@gmail,om		   |Email is invalid.              |
+      |jtime@002@gmail.com		   |Email is invalid.              |
       |jtime002@gmail.com          |Your message has been sent.    |
+      |12345678901234567890123456789012345678901234567890123123456789@123456789.123456789012345678901234567890123456789012345678901234567890123          |Your message has been sent.    |
+      |12345678901234567890123456789012345678901234567890123123456789@123456789.1234567890123456789012345678901234567890123456789012345678901231         |Email is invalid.    |
+       
+  Scenario Outline: check message boundries, formats and proper error messages
+    When user clicks "Contact"
+    Then user sees "Feedback form" with format "p"
+    When user sends form with email "jtime002@gmail.com" and message "<message>" "accept gdpr"
+    Then user sees "<result>"
+   
+	  Examples:
+      |message			 		   |result       				  				|
+      |1234 				   	   |Message should be 5 to 120 characters long. |
+      |12345	 				   |no form errors							    |
+      |123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890|no form errors |
+      |1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901|Message should be 5 to 120 characters long. |
+
        
   Scenario: user cannot send form without filling in email
     When user clicks "Contact"

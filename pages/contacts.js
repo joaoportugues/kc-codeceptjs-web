@@ -3,7 +3,7 @@ const assert = require('assert')
 
 module.exports = {	
 	elements: {
-		emailField: '//input[@type="email"]',
+		emailField: '//input[@formcontrolname="email"]',
 		messageField: '//textarea[@formcontrolname="text"]',
 		agreeGdpr: '//label[@for="terms"]',
 		send: '//button[contains(text(),"Send")]',
