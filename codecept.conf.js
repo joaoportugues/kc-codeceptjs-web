@@ -52,7 +52,7 @@ exports.config = {
      "enabled": false
    },
 	autoDelay: {
-     enabled: true
+     enabled: false
    },
 	allure: {
       enabled: true,

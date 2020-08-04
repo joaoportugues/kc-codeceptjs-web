@@ -1,117 +1,71 @@
-21:43:13.189 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
+21:46:28.420 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
     "args": [
       "--headless",
-      "start-maximized",
-      "-remote-debugging-port",
-      "56622"
+      "--window-size=1400,1000"
     ]
   }
 }
-21:43:13.191 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1596570193493	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "start-maximized" "-remote-debugging-port" "56622" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofilen3D8Hk"
-*** You are running in headless mode.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1596570195661	Marionette	INFO	Listening on port 56676
-21:43:15.852 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:43:15.878 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 10a09157-b155-f143-afb4-c12b8bcbb587 (org.openqa.selenium.firefox.GeckoDriverService)
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-1596570204943	Marionette	INFO	Stopped listening on port 56676
-21:43:26.264 INFO [ActiveSessions$1.onStop] - Removing session 10a09157-b155-f143-afb4-c12b8bcbb587 (org.openqa.selenium.firefox.GeckoDriverService)
-21:43:26.330 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
+21:46:28.429 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34854
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596570389.214][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+21:46:29.523 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+21:46:29.542 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 9f87483d201f411cd006c9eb328bf8d8 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:34.818 INFO [ActiveSessions$1.onStop] - Removing session 9f87483d201f411cd006c9eb328bf8d8 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:34.858 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
     "args": [
       "--headless",
-      "start-maximized",
-      "-remote-debugging-port",
-      "56622"
+      "--window-size=1400,1000"
     ]
   }
 }
-21:43:26.330 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1596570206361	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "start-maximized" "-remote-debugging-port" "56622" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofile6Clyd3"
-*** You are running in headless mode.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1596570208473	Marionette	INFO	Listening on port 56831
-21:43:28.539 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:43:28.541 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session afb34bea-7575-dd4f-8806-2db28dd2d04c (org.openqa.selenium.firefox.GeckoDriverService)
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-1596570213540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1596570214020	Marionette	INFO	Stopped listening on port 56831
-21:43:36.367 INFO [ActiveSessions$1.onStop] - Removing session afb34bea-7575-dd4f-8806-2db28dd2d04c (org.openqa.selenium.firefox.GeckoDriverService)
-21:43:36.431 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
+21:46:34.859 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596570395.083][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+21:46:35.326 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+21:46:35.327 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session a31a5b34660efcd537090bc4cfdab643 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:40.803 INFO [ActiveSessions$1.onStop] - Removing session a31a5b34660efcd537090bc4cfdab643 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:40.854 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
     "args": [
       "--headless",
-      "start-maximized",
-      "-remote-debugging-port",
-      "56622"
+      "--window-size=1400,1000"
     ]
   }
 }
-21:43:36.431 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1596570216471	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "start-maximized" "-remote-debugging-port" "56622" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileQ4hRK3"
-*** You are running in headless mode.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1596570218678	Marionette	INFO	Listening on port 57012
-21:43:38.767 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:43:38.770 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 81c15f65-6b08-6c40-9f82-4aa87d3943d4 (org.openqa.selenium.firefox.GeckoDriverService)
-1596570223868	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1596570224350	Marionette	INFO	Stopped listening on port 57012
-21:43:46.691 INFO [ActiveSessions$1.onStop] - Removing session 81c15f65-6b08-6c40-9f82-4aa87d3943d4 (org.openqa.selenium.firefox.GeckoDriverService)
-21:43:46.748 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
+21:46:40.855 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 5309
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596570401.089][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+21:46:41.318 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+21:46:41.320 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 45e1d233936d0dfb1b90f4979bd6d098 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:46.755 INFO [ActiveSessions$1.onStop] - Removing session 45e1d233936d0dfb1b90f4979bd6d098 (org.openqa.selenium.chrome.ChromeDriverService)
+21:46:46.795 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
     "args": [
       "--headless",
-      "start-maximized",
-      "-remote-debugging-port",
-      "56622"
+      "--window-size=1400,1000"
     ]
   }
 }
-21:43:46.749 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1596570226794	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "start-maximized" "-remote-debugging-port" "56622" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofileaQ97mJ"
-*** You are running in headless mode.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1596570229174	Marionette	INFO	Listening on port 57228
-21:43:49.286 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:43:49.288 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 0991930f-b712-1e47-a2a2-1f904b466927 (org.openqa.selenium.firefox.GeckoDriverService)
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-1596570233893	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1596570234353	Marionette	INFO	Stopped listening on port 57228
-21:43:55.681 INFO [ActiveSessions$1.onStop] - Removing session 0991930f-b712-1e47-a2a2-1f904b466927 (org.openqa.selenium.firefox.GeckoDriverService)
-21:43:55.743 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "browserName": "firefox",
-  "moz:firefoxOptions": {
-    "args": [
-      "--headless",
-      "start-maximized",
-      "-remote-debugging-port",
-      "56622"
-    ]
-  }
-}
-21:43:55.744 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1596570235775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "start-maximized" "-remote-debugging-port" "56622" "-foreground" "-no-remote" "-profile" "/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T/rust_mozprofilewZsO84"
-*** You are running in headless mode.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1596570238099	Marionette	INFO	Listening on port 57374
-21:43:58.152 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:43:58.153 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session aff1dd3f-0eb7-7842-9200-beba1dae7219 (org.openqa.selenium.firefox.GeckoDriverService)
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+21:46:46.796 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596570407.115][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+21:46:47.454 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+21:46:47.456 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 0af6c6bdbb1e3238d3ad37ad2865b277 (org.openqa.selenium.chrome.ChromeDriverService)
