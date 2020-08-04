@@ -1,5 +1,4 @@
 node_modules/
-reports/*
-output/*
-!reports/.gitkeep
-!output/wdio-selenium-standalone.log
+reports/chrome*
+reports/firefox*
+output/*.png
