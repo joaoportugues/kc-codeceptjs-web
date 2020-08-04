@@ -46,14 +46,14 @@ Feature: News section of the page
     Then user sees "Hogar" button is "inactive"
     Then user sees "Noticias" with format "p"
     Then user sees "company logo small"
-    
+  
   Scenario: user is sent to News and check for more news and check image size
     When user clicks "News"
     When user scrolls to "More"
     When user clicks "More"
     Then user sees image 1 size with width 350
     
-  @TKC-5
+  @TKC-5 
   Scenario: user is sent to News and check for more, change language to German and check image size
     When user clicks "News"
     When user scrolls to "More"
@@ -61,3 +61,4 @@ Feature: News section of the page
     When user clicks "language selector"
     When user clicks "German flag"
     Then user sees image 4 size with width 350
+   

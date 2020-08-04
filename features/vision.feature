@@ -35,8 +35,8 @@ Feature: Vision section of the page
   Scenario: user is sent to Vision section with correct information and logos (German)
     When user clicks "language selector"
     When user clicks "German flag"
-    When user clicks "Vision"
-    Then user sees "Vision" button is "active"
+    When user clicks "Wie funktioniert's"
+    Then user sees "Wie funktioniert's" button is "active"
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Unsere Vision" with format "p"
     Then user sees "Sei Teil der Zukunft und mach' den Unterschied! Kid-Coins möchte..." with format "p"
@@ -47,7 +47,7 @@ Feature: Vision section of the page
     When user clicks "Vision"
     When user clicks "language selector"
     When user clicks "German flag"
-    Then user sees "Vision" button is "active"
+    Then user sees "Wie funktioniert's" button is "active"
     Then user sees "Zuhause" button is "inactive"
     Then user sees "Unsere Vision" with format "p"
     

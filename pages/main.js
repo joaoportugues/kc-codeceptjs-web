@@ -118,6 +118,10 @@ module.exports = {
 			case 'no success message': 
 				I.dontSeeElement(contacts.elements.successMessage)
 				break;
+			case 'no error chars': 
+				I.dontSee('&#')
+				I.dontSee('MsoNormal')
+				break;
 			default:
 				I.see(element)
 				break
@@ -217,5 +221,9 @@ module.exports = {
 		const currentTitle = await I.grabTitle();
 		assert.equal(expectedTitle, currentTitle);
 	},
+	
+	moveCursor (element) {
+		I.moveCursorTo(this.elements.languageSelector)
+	}
 
 }

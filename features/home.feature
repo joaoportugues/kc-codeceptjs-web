@@ -138,7 +138,25 @@ Feature: Home page functionalities
     Then user sees "Motivated and happy" with format "h2"
     Then user sees "More happy moments" with format "h2"
    	Then user sees "More quality time with friends and family" with format "h2"
+   	
+  @TKC-14
+  Scenario: user is sent to News and all characters are displayed correctly, including special characters
+    When user clicks "Vision"
+    When user clicks "Features"
+    When user clicks "News"
+    Then user sees image 1 size with width 350
+    When user clicks "Contact"
+    When user clicks "language selector"
+    When user clicks "Spanish flag"
+    When user scrolls to "bottom"
+    When user clicks "Noticias"
+    Then user sees image 1 size with width 350
+    Then user sees "Kid-Coins en la televisión"
+	Then user sees "no error chars"
     
-  
-
+  @TKC-15 @critical @firefoxBugOnly @runThis
+  Scenario: confirm header options, logos and elements
+ 	When I resize window 768 by 1024
+  	When moves cursor "language selector"
+  	Then user sees "German flag"
 

@@ -1,6 +1,6 @@
 const { I } = inject()
 const main = require('../pages/main')
-const vision = require('../pages/vision')
+const news = require('../pages/news')
 const footer = require('../pages/footer')
 const contacts = require('../pages/contacts')
 const fs = require('fs')
@@ -18,15 +18,22 @@ let config = require('codeceptjs').config.get()
       if (err) throw err;
     })
   }
-})*/
+})
+/*
 
 //Tagging and categorization of tests
+/*Before((test) => {
+	
+  var feature = JSON.stringify(test.parent.title) 
+  allure.feature(feature)
+
+})*/
+
 After((test) => {
   var myJSON = JSON.stringify(test, ['tags'])
 
   //get config information
   //console.log(config.helpers.WebDriver.browser) 
-
 
   if (myJSON.toLowerCase().includes("trivial")) {
 	allure.severity("trivial")
@@ -60,7 +67,7 @@ When('I resize window {int} by {int}', (width, height) => main.resizeWindow(widt
 
 Then('user scrolls to {string}', (element) => main.scrollTo(element))
 
-Then('user sees image {int} size with width {int}', (imageNumber, expectedWidth) => vision.imageDimensions(imageNumber, expectedWidth))
+Then('user sees image {int} size with width {int}', (imageNumber, expectedWidth) => news.imageDimensions(imageNumber, expectedWidth))
 
 Then('user refreshes page', () => I.refreshPage())
 
@@ -73,3 +80,5 @@ When('user sends form with email {string} and message {string} {string}', (email
 });
 
 Then('user sees send button is disabled', () => contacts.sendButtonStateDisabled())
+
+When('moves cursor to {string}', (element) => main.moveCursor(element))
