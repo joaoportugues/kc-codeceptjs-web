@@ -1,0 +1,665 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596551718119' stop='1596551776556'>
+    <name>Home page carousel options and navigation in Spanish</name>
+    <title>Home page carousel options and navigation in Spanish</title>
+    <test-cases>
+        <test-case start='1596551718120' status='passed' stop='1596551724435'>
+            <name>check that carousel messages circle correctly with next, second screen (Spanish) @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, second screen (Spanish) @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551722968' status='passed' stop='1596551723103'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551722968' status='passed' stop='1596551723103'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551722968' status='passed' stop='1596551722983'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551722983' status='passed' stop='1596551723000'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551723103' status='passed' stop='1596551724408'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551723103' status='passed' stop='1596551724408'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551723103' status='passed' stop='1596551724408'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551724408' status='passed' stop='1596551724435'>
+                    <name>Then user sees "Motivado y feliz" with format "h2" </name>
+                    <title>Then user sees "Motivado y feliz" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551724408' status='passed' stop='1596551724435'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551724408' status='passed' stop='1596551724420'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551724420' status='passed' stop='1596551724435'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551724489' status='passed' stop='1596551730242'>
+            <name>check that carousel messages circle correctly with next, third screen (Spanish) @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, third screen (Spanish) @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551728415' status='passed' stop='1596551728578'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551728415' status='passed' stop='1596551728578'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551728415' status='passed' stop='1596551728454'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551728454' status='passed' stop='1596551728473'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551728578' status='passed' stop='1596551730196'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551728578' status='passed' stop='1596551730196'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551728578' status='passed' stop='1596551729830'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551729935' status='passed' stop='1596551730196'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551730196' status='passed' stop='1596551730242'>
+                    <name>Then user sees "Más momentos felices" with format "h2" </name>
+                    <title>Then user sees "Más momentos felices" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551730196' status='passed' stop='1596551730242'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551730196' status='passed' stop='1596551730216'>
+                                    <name>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551730216' status='passed' stop='1596551730242'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551730299' status='passed' stop='1596551739490'>
+            <name>check that carousel messages circle correctly with next, back to first screen (Spanish) @minor @carouselTests</name>
+            <title>check that carousel messages circle correctly with next, back to first screen (Spanish) @minor @carouselTests</title>
+            <labels>
+                <label name='tag' value='@minor'/>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551737267' status='passed' stop='1596551737430'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551737267' status='passed' stop='1596551737430'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551737267' status='passed' stop='1596551737312'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551737312' status='passed' stop='1596551737328'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551737430' status='passed' stop='1596551739468'>
+                    <name>When user clicks "Carousel next" </name>
+                    <title>When user clicks "Carousel next" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551737430' status='passed' stop='1596551739468'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551737430' status='passed' stop='1596551738728'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551738830' status='passed' stop='1596551739108'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551739211' status='passed' stop='1596551739468'>
+                                    <name>I click "//span[@class="icon-next carousel-control-next-icon"]"</name>
+                                    <title>I click "//span[@class="icon-next carousel-control-next-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551739468' status='passed' stop='1596551739490'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551739468' status='passed' stop='1596551739490'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551739468' status='passed' stop='1596551739477'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551739477' status='passed' stop='1596551739490'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551739544' status='passed' stop='1596551745176'>
+            <name>check that carousel messages circle correctly with previous, third screen (Spanish) @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, third screen (Spanish) @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551743732' status='passed' stop='1596551743884'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551743732' status='passed' stop='1596551743884'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551743732' status='passed' stop='1596551743757'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551743757' status='passed' stop='1596551743782'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551743884' status='passed' stop='1596551745145'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551743884' status='passed' stop='1596551745145'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551743884' status='passed' stop='1596551745145'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551745145' status='passed' stop='1596551745176'>
+                    <name>Then user sees "Más momentos felices" with format "h2" </name>
+                    <title>Then user sees "Más momentos felices" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551745145' status='passed' stop='1596551745176'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551745145' status='passed' stop='1596551745158'>
+                                    <name>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551745159' status='passed' stop='1596551745176'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551745232' status='passed' stop='1596551751149'>
+            <name>check that carousel messages circle correctly with previous, second screen (Spanish) @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, second screen (Spanish) @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551749326' status='passed' stop='1596551749463'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551749326' status='passed' stop='1596551749463'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551749326' status='passed' stop='1596551749340'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551749341' status='passed' stop='1596551749359'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551749463' status='passed' stop='1596551751124'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551749463' status='passed' stop='1596551751124'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551749463' status='passed' stop='1596551750764'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551750865' status='passed' stop='1596551751124'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551751124' status='passed' stop='1596551751149'>
+                    <name>Then user sees "Motivado y feliz" with format "h2" </name>
+                    <title>Then user sees "Motivado y feliz" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551751124' status='passed' stop='1596551751149'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551751124' status='passed' stop='1596551751135'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551751135' status='passed' stop='1596551751149'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551751201' status='passed' stop='1596551757438'>
+            <name>check that carousel messages circle correctly with previous, back to first screen (Spanish) @minor @carouselTests</name>
+            <title>check that carousel messages circle correctly with previous, back to first screen (Spanish) @minor @carouselTests</title>
+            <labels>
+                <label name='tag' value='@minor'/>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='minor'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551755256' status='passed' stop='1596551755400'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551755256' status='passed' stop='1596551755400'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551755256' status='passed' stop='1596551755272'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551755272' status='passed' stop='1596551755300'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551755400' status='passed' stop='1596551757409'>
+                    <name>When user clicks "Carousel previous" </name>
+                    <title>When user clicks "Carousel previous" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551755400' status='passed' stop='1596551757409'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551755400' status='passed' stop='1596551756665'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551756769' status='passed' stop='1596551757057'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551757158' status='passed' stop='1596551757409'>
+                                    <name>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</name>
+                                    <title>I click "//span[@class="icon-prev carousel-control-prev-icon"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551757409' status='passed' stop='1596551757438'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551757409' status='passed' stop='1596551757438'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551757409' status='passed' stop='1596551757420'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551757420' status='passed' stop='1596551757438'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1596551757492' status='passed' stop='1596551776503'>
+            <name>check that carousel autoplay in Spanish @carouselTests</name>
+            <title>check that carousel autoplay in Spanish @carouselTests</title>
+            <labels>
+                <label name='tag' value='@carouselTests'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596551761379' status='passed' stop='1596551761414'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551761379' status='passed' stop='1596551761414'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551761379' status='passed' stop='1596551761399'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551761399' status='passed' stop='1596551761414'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551761414' status='passed' stop='1596551766444'>
+                    <name>Then user sees "Motivado y feliz" with format "h2" </name>
+                    <title>Then user sees "Motivado y feliz" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551761414' status='passed' stop='1596551766444'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551761414' status='passed' stop='1596551761426'>
+                                    <name>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551761426' status='passed' stop='1596551766444'>
+                                    <name>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Motivado y feliz")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551766444' status='passed' stop='1596551771478'>
+                    <name>Then user sees "Más momentos felices" with format "h2" </name>
+                    <title>Then user sees "Más momentos felices" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551766444' status='passed' stop='1596551771478'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551766444' status='passed' stop='1596551766457'>
+                                    <name>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551766457' status='passed' stop='1596551771478'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más momentos felices")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596551771478' status='passed' stop='1596551776503'>
+                    <name>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </name>
+                    <title>Then user sees "Más tiempo de calidad con amigos y familiares" with format "h2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596551771478' status='passed' stop='1596551776503'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596551771478' status='passed' stop='1596551771487'>
+                                    <name>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for element "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596551771487' status='passed' stop='1596551776503'>
+                                    <name>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</name>
+                                    <title>I wait for visible "//h2[contains(text(),"Más tiempo de calidad con amigos y familiares")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -50,6 +50,7 @@ Feature: Contact section of the page
     Then user sees "Formulario de comentarios" with format "p"
     Then user sees "company logo small"
   
+ @runThis 
   Scenario: user is able to send feedback form
     When user clicks "Contact"
     Then user sees "Feedback form" with format "p"

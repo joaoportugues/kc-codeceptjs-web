@@ -1,5 +1,7 @@
 const { I } = inject()
 const assert = require('assert')
+let config = require('codeceptjs').config.get()
+
 
 module.exports = {	
 	elements: {
@@ -11,11 +13,18 @@ module.exports = {
 		error: '//form[@class="ng-pristine ng-invalid ng-touched"]',
 	},
 	
-	fillInForm(email, message) {
-		I.fillField(this.elements.emailField, email)
-		I.seeInField(this.elements.emailField, email)
-		I.fillField(this.elements.messageField, message)
-		I.seeInField(this.elements.messageField, message)
+	async fillInForm(email, message) {
+		
+		if (config.helpers.WebDriver.browser == "firefox"){
+			I.fillField(this.elements.emailField, email)
+			I.fillField(this.elements.messageField, message)
+
+		} else {
+			I.fillField(this.elements.emailField, email)
+			I.seeInField(this.elements.emailField, email)
+			I.fillField(this.elements.messageField, message)
+			I.seeInField(this.elements.messageField, message)
+		}
 	},
 	
 	acceptGdpr(gdpr) {

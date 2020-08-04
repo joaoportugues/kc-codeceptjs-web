@@ -1,0 +1,180 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596554693662' stop='1596554709305'>
+    <name>Contact section of the page</name>
+    <title>Contact section of the page</title>
+    <test-cases>
+        <test-case start='1596554695124' status='failed' stop='1596554707829'>
+            <name>user is able to send feedback form @runThis</name>
+            <title>user is able to send feedback form @runThis</title>
+            <labels>
+                <label name='tag' value='@runThis'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1596554699760' status='passed' stop='1596554701340'>
+                    <name>When user clicks "Contact" </name>
+                    <title>When user clicks "Contact" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554699760' status='passed' stop='1596554701340'>
+                            <name>Object: clickElement </name>
+                            <title>Object: clickElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554699760' status='passed' stop='1596554701340'>
+                                    <name>I click "Contact"</name>
+                                    <title>I click "Contact"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596554701340' status='passed' stop='1596554701892'>
+                    <name>Then user sees "Feedback form" with format "p" </name>
+                    <title>Then user sees "Feedback form" with format "p" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554701340' status='passed' stop='1596554701892'>
+                            <name>Object: readText </name>
+                            <title>Object: readText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554701340' status='passed' stop='1596554701354'>
+                                    <name>I wait for element "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for element "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596554701355' status='passed' stop='1596554701892'>
+                                    <name>I wait for visible "//p[contains(text(),"Feedback form")]", 10</name>
+                                    <title>I wait for visible "//p[contains(text(),"Feedback form")]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596554701892' status='passed' stop='1596554703095'>
+                    <name>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </name>
+                    <title>When user sends form with email "jtime002@gmail.com" and message "This is a test message" "accept gdpr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554701892' status='passed' stop='1596554702091'>
+                            <name>Object: fillInForm </name>
+                            <title>Object: fillInForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554701892' status='passed' stop='1596554702043'>
+                                    <name>I fill field "//input[@formcontrolname="email"]", "jtime002@gmail.com"</name>
+                                    <title>I fill field "//input[@formcontrolname="email"]", "jtime002@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1596554702043' status='passed' stop='1596554702088'>
+                                    <name>I grab attribute from "//input[@formcontrolname="email"]", "text"</name>
+                                    <title>I grab attribute from "//input[@formcontrolname="email"]", "text"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596554702091' status='passed' stop='1596554702361'>
+                            <name>Object: acceptGdpr </name>
+                            <title>Object: acceptGdpr </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554702091' status='passed' stop='1596554702361'>
+                                    <name>I check option "//label[@for="terms"]"</name>
+                                    <title>I check option "//label[@for="terms"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1596554702361' status='passed' stop='1596554703095'>
+                            <name>Object: sendForm </name>
+                            <title>Object: sendForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554702361' status='passed' stop='1596554703094'>
+                                    <name>I click "//button[contains(text(),"Send")]"</name>
+                                    <title>I click "//button[contains(text(),"Send")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596554703095' status='passed' stop='1596554703105'>
+                    <name>Then user sees "no form errors" </name>
+                    <title>Then user sees "no form errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554703095' status='passed' stop='1596554703105'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554703095' status='passed' stop='1596554703105'>
+                                    <name>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</name>
+                                    <title>I dont see element "//form[@class="ng-pristine ng-invalid ng-touched"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596554703105' status='failed' stop='1596554707829'>
+                    <name>Then user sees "Success message" </name>
+                    <title>Then user sees "Success message" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554703105' status='failed' stop='1596554707829'>
+                            <name>Object: assertElement </name>
+                            <title>Object: assertElement </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1596554703105' status='failed' stop='1596554707829'>
+                                    <name>I see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</name>
+                                    <title>I see element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1596554707832' status='undefined'>
+                    <name>Object: fillInForm </name>
+                    <title>Object: fillInForm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596554707832' status='undefined'>
+                            <name>I see in field "//input[@formcontrolname="email"]", "jtime002@gmail.com"</name>
+                            <title>I see in field "//input[@formcontrolname="email"]", "jtime002@gmail.com"</title>
+                            <attachments>
+                                <attachment title='Last Seen Screenshot' source='83cb7e93-e0d7-493d-aed5-c28dd7904c52-attachment.png' type='image/png' size='85539'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "//div[contains(text(),"Thank you! Your message has been sent. We will contact you as soon as possible.")]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:2717:11)
+                    at WebDriver.seeElement (/Users/ragnarok/Documents/kc-codeceptjs-web/node_modules/codeceptjs/lib/helper/WebDriver.js:1223:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
