@@ -1,3 +1,5 @@
 node_modules/
+reports/*
+output/*
 !reports/.gitkeep
-!reports/wdio-selenium-standalone.log
+!output/wdio-selenium-standalone.log
